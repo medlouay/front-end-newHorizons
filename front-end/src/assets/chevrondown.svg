@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Option 1 full" clip-path="url(#clip0_42_2)">
+<rect width="1440" height="4327" transform="translate(-1288 -48)" fill="#FFF9F4"/>
+<g id="Frame 37" clip-path="url(#clip1_42_2)">
+<g id="Frame 46">
+<g id="chevron-down">
+<path id="Vector" d="M6 9L12 15L18 9" stroke="#2D3536" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_42_2">
+<rect width="1440" height="4327" fill="white" transform="translate(-1288 -48)"/>
+</clipPath>
+<clipPath id="clip1_42_2">
+<rect width="1440" height="749" fill="white" transform="translate(-1288 -48)"/>
+</clipPath>
+</defs>
+</svg>
