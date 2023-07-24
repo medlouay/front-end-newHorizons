@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Header.css";
 import {Cardrivingbro,arrowupright } from "../../assets";
+import Navbar from "../Navbar/Navbar"
 
 const Header = () => {
   return (
     <header>
     <div class="wrapper">
+      <Navbar/>
       <div class="content-container">
         <div class="cta">
           <p class="introduction">NEW HORIZONS</p>

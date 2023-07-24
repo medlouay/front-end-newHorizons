@@ -1,0 +1,59 @@
+nav{
+    position: fixed;
+    top: 24px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 300;
+}
+.logo {
+    margin-right: 243px; /* Adjust this value as needed */
+  }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 60px;
+ 
+}
+
+nav ul li a{
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Now;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+    text-transform: uppercase;
+}
+.main-list {
+    margin-right: 306px;
+  }
+
+.secondary-list{
+    gap: 10px;
+
+}
+
+.search{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    
+
+margin-right: 5px;
+}
+
+.chevrondown{
+    width: 24px;
+    height: 24px; 
+}
+  
+  

@@ -11,7 +11,7 @@ header .wrapper {
 header .content-container {
     position: absolute;
     bottom: 50%;
-    left: 20px; /* Adjust this value to set the left distance from the edge of the header */
+    left: 100px; /* Adjust this value to set the left distance from the edge of the header */
     transform: translateY(50%);
     display: flex; /* Use flexbox to create a horizontal layout */
     align-items: center; /* Align the items vertically centered */
@@ -19,7 +19,10 @@ header .content-container {
 
 header .svg-image-container {
      /* Add some spacing between the SVG image and the CTA */
-    margin-left: 350px;
+    margin-left: 300px;
+    width: 830px;
+height: 521px;
+flex-shrink: 0;
 }
 
 
@@ -58,9 +61,10 @@ header .cta .explore-btn{
     font-style: normal;
     font-weight: 400;
     line-height: 130%; /* 20.8px */
+    margin-top: 100px;
 }
-header .cta .explore-btn .arrowupright{
+header .cta .explore-btn img{
     width: 24px;
-height: 24px;
-flex-shrink: 0;
+    height: 24px;
+    flex-shrink: 0;
 }
