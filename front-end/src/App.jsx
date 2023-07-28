@@ -1,5 +1,5 @@
 import React from 'react'
-import{Info,Header,Footer,Body} from "./components"
+import{Info,Header,Footer,Body,Event} from "./components"
 import {path as SvgImage} from "./assets"
 
 const App = () => {
@@ -7,11 +7,9 @@ const App = () => {
   {/* <div className="svg-container">
       <SvgImage className="styled-svg" />
     </div> */}
-  <Header/>
   
-  <Info/>
-  <Body/>
-  <Footer/>
+  <Event/>
+
   
   </>)
 };

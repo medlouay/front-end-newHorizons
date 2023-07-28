@@ -3,5 +3,7 @@ import Footer from "./Footer/Footer";
 import Info from "./Info/Info";
 import Event from "./Event/Event";
 import Body from "./Body/Body";
+import Navbar from "./Navbar/Navbar";
+import Agenda from "./Agenda/Agenda";
 
-export {Header,Footer,Info,Event,Body}
+export { Header, Footer, Info, Event, Body, Navbar, Agenda };
