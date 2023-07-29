@@ -1,5 +1,5 @@
 import React from 'react'
-import{Info,Header,Footer,Body,Event} from "./components"
+import{Info,Header,Footer,Body,Event,RideCard} from "./components"
 import {path as SvgImage} from "./assets"
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
       <SvgImage className="styled-svg" />
     </div> */}
   
-  <Event/>
+  <RideCard/>
 
   
   </>)

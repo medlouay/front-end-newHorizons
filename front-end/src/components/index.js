@@ -5,5 +5,6 @@ import Event from "./Event/Event";
 import Body from "./Body/Body";
 import Navbar from "./Navbar/Navbar";
 import Agenda from "./Agenda/Agenda";
+import RideCard from "./RideCard/RideCard";
 
-export { Header, Footer, Info, Event, Body, Navbar, Agenda };
+export { Header, Footer, Info, Event, Body, Navbar, Agenda, RideCard};
