@@ -1,7 +1,7 @@
 import React from 'react'
-import './rideCard.css'
+import './OfferRideS1.css'
 
-const RideCard = () => {
+const OfferRideS1 = () => {
   return (
 
     <div id="container">
@@ -60,4 +60,4 @@ const RideCard = () => {
     ) 
 }
 
-  export default RideCard
+  export default OfferRideS1

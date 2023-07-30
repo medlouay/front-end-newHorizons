@@ -1,0 +1,114 @@
+#container4 {
+    position: relative;
+    width: 780px;
+    height: 764px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px #f2e8e0;
+  }
+
+  #form4{
+    position: absolute;
+    left: 50px;
+    top: 177px;
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 20.8px */
+  }
+
+  #number-of-available-seats{
+    position: absolute;
+    top: 208px;
+    left: 50px;
+
+display: flex;
+width: 80px;
+height: 60px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 5px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+
+  }
+  #price-for-passangers{
+
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 20.8px */
+position: absolute;
+top: 308px ;
+left: 50px;
+  }
+
+  #container-price-for-passangers{
+    position: absolute;
+    top:339px ;
+    left: 50px;
+    display: flex;
+width: 180px;
+padding: 18px 5px 18px 114px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+
+  }
+
+/* Custom style for the element with ID "input-price-for-passanger" */
+#input-price-for-passanger {
+    
+    color: #000;
+    font-family: Consolas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 18.2px */
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+    padding-right: 24px; /* Add space for the custom underline */
+    width: 70px; /* Increase the width to make it bigger */
+  }
+  
+  /* Custom underline using CSS pseudo-element ::after */
+  #input-price-for-passanger::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2px; /* Adjust this value to position the underline */
+    left: 0;
+    width: 100%; /* Extend the underline to cover the width of the input */
+    height: 2px; /* Set the height of the underline */
+    background-color: #000; /* Color the underline in black */
+    pointer-events: none;
+  }
+  
+#select-price-for-passenger{
+        position: absolute;
+    top: 343px;
+    left: 150px;
+
+display: flex;
+width: 70px;
+height: 50px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 5px;
+border: 1px solid var(--foundation-green-normal, white);
+
+}
+
+  
+  
+  
+  
+  
+  
