@@ -1,0 +1,112 @@
+@font-face {
+    font-family: causdex;
+    src: url(../../../public/Caudex-Bold.ttf);
+}
+@font-face {
+    font-family: now;
+    src: url(../../../public/Now-Regular.otf);
+}
+
+.box-info {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  
+  .box-info .overlap-group-info {
+    height: 444px;
+    
+    position: relative;
+    width: 1206px;
+  }
+  
+  .box-info .rectangle {
+    height: 444px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 1199px;
+  }
+  
+  .box-info .how-it-works-info {
+    color: var(--foundationgreydark);
+    font-family: causdex;
+    font-size: 32px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .box-info .line-info {
+    height: 100px;
+    left: 56px;
+    position: absolute;
+    top: 202px;
+    width: 1020px;
+  }
+  
+  .box-info .div-info {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 149px;
+    left: 1px;
+    position: absolute;
+    top: 192px;
+  }
+  
+  .box-info .frame-2-info {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .box-info .img-info {
+    height: 100px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .box-info .find-the-event-of-info {
+    color: var(--foundationgreydark);
+    font-family: now;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .box-info .text-wrapper-info {
+    color: var(--foundationgreydark);
+    font-family: now;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .box-info .frame-3-info {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  

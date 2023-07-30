@@ -24,11 +24,18 @@ header .svg-image-container {
 height: 521px;
 flex-shrink: 0;
 }
-
+@font-face {
+    font-family:Black_Bones ;
+    src: url(../../../public/Black_Bones.ttf);
+}
+@font-face {
+    font-family: now;
+    src: url(../../../public/Now-Regular.otf);
+}
 
 header .cta p {
     color: var(--foundation-grey-dark, #2D3536);
-font-family: Black Bones;
+font-family: Black_Bones;
 font-size: 64px;
 font-style: normal;
 font-weight: 400;
@@ -36,6 +43,8 @@ line-height: 100%; /* 64px */
 text-transform: uppercase;
     /* Add any additional styling for the CTA container */
 }
+
+
 header .cta h3{
     color: var(--foundation-grey-dark, #2D3536);
 font-family: Now;

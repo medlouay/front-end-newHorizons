@@ -3,8 +3,18 @@
     --orange-normal: #ED8A37;
     --green-normal: #5D9B96;
     --grey-dark: #2D3536;
+    --green-light:#EFF5F5;
     background: #FDF3EB;
     
+}
+
+@font-face {
+    font-family: causdex;
+    src: url(../../../public/Caudex-Bold.ttf);
+}
+@font-face {
+    font-family: now;
+    src: url(../../../public/Now-Regular.otf);
 }
  
 
