@@ -1,0 +1,240 @@
+#container3 {
+    position: relative;
+    width: 780px;
+    height: 764px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px #f2e8e0;
+  }
+  #form3{
+    position: absolute;
+    left: 50px;
+    top: 177px;
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Consolas;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 20.8px */
+  }
+
+  #search-bar3{
+    position: absolute;
+    top: 208px;
+    left: 48px;
+    display: flex;
+width: 481px;
+padding: 18px 20px;
+border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  #icon3{
+    width: 24px;
+height: 24px;
+position: absolute;
+top: 20px;
+left: 440px;
+  }
+  
+  #input3 {
+    display: flex;
+    width: 441px;
+    align-items: center;
+    gap: 283px;
+    flex-shrink: 0;
+    outline: none !important;
+    border: none; /* Remove border (if any) */
+    box-shadow: none; /* Remove any box-shadow (if any) */
+  }
+  /* CSS */
+.dropdown-container {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.dropdown {
+  position:absolute;
+  top: 269px;
+  left: 50px;
+  color: var(--foundation-green-dark, #467471);
+font-family: Consolas;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+text-decoration-line: underline;
+
+  appearance: none; /* Removes default styles on certain browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none; /* Remove the border */
+  background-color: transparent;
+  cursor: pointer; /* Change the cursor on hover */
+  border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 278px;
+  left: 152px;
+  width: 16px;
+height: 16px;
+
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #555;
+  pointer-events: none; /* Make the arrow icon non-interactable */
+}
+#drop-off-point{
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  color: var(--foundation-grey-dark, #2D3536);
+font-family: Consolas;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 20.8px */
+
+}
+  
+#search-bar4{
+  position: absolute;
+  top: 380px;
+  left: 48px;
+width: 481px;
+padding: 18px 20px;
+border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+}
+#icon3{
+  width: 24px;
+height: 24px;
+position: absolute;
+top: 20px;
+left: 440px;
+}
+.dropdown-container1 {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.dropdown1 {
+  position:absolute;
+  top: 440px;
+  left: 50px;
+  color: var(--foundation-green-dark, #467471);
+font-family: Consolas;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+text-decoration-line: underline;
+
+  appearance: none; /* Removes default styles on certain browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none; /* Remove the border */
+  background-color: transparent;
+  cursor: pointer; /* Change the cursor on hover */
+  border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+}
+
+.arrow-icon1 {
+  position: absolute;
+  top: 450px;
+  left: 152px;
+  width: 16px;
+height: 16px;
+
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #555;
+  pointer-events: none; /* Make the arrow icon non-interactable */
+}
+#deprature-data-and-time{
+  position: absolute;
+  top: 518px;
+  left: 50px;
+  color: var(--foundation-grey-dark, #2D3536);
+font-family: Consolas;
+font-size: 16px;
+font-weight: bold;
+line-height: 130%; /* 20.8px */
+}
+
+/* DateTimePicker.css */
+.datetime-picker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.datetime-picker .calendar-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 533px;
+  left: 385px;
+}
+
+.datetime-picker input[type="datetime-local"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 14px;
+  color: #C3C6C6; /* Set the font color */
+  outline: none;
+font-family: Consolas;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+
+position: absolute;
+top: 530px;
+left: 48px;
+width: 381px;
+padding: 18px 15px;
+border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+}
+
+/* Style the placeholder text */
+.datetime-picker input[type="datetime-local"]::placeholder {
+
+  color: #C3C6C6; /* Set the color for the placeholder text */
+}
+
+/* Back Button 1 */
+#backbutton2 {
+  font: Consolas;
+  position: absolute;
+  top: 646px;
+  left: 50px;
+  display: flex;
+  width: 230px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--foundation-green-normal, #5D9B96);
+}
+
+/* Next Button 1 */
+#nextbutton2 {
+  font-family: Consolas;
+  position: absolute;
+  top: 646px;
+  left: 350px;
+  display: flex;
+  width: 230px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--foundation-green-normal, #5D9B96);
+  background: var(--foundation-green-normal, #5D9B96);
+}
