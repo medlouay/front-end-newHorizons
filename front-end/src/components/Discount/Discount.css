@@ -1,0 +1,71 @@
+.frame-discount {
+    background-color: var(--foundation-orange-light-active, #F9DBC1);
+    border: 1px none;
+    height: 600px;
+    width: 1519px;
+  }
+  
+  .frame-discount .overlap-group-discount {
+    background-image: url(./rectangle-43.svg);
+    background-size: 100% 100%;
+    height: 600px;
+    left: 70px;
+    position: relative;
+    width: 1266px;
+  }
+  
+  .frame-discount .div-discount {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    
+    left: 60px;
+    position: absolute;
+    top: 146px;
+  }
+  
+  .frame-discount .get-discount {
+    color: var(--grey-dark);
+    font-family: causdex;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 62.4px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-discount .element-discount-discount {
+    color: var(--orange-normal);
+    font-family: causdex;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 124.8px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-discount .on-your-first-ride-discount {
+    color: var(--grey-dark);
+    font-family: causdex;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 62.4px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-discount .img-discount {
+    height: 400px;
+    left: 841px;
+    position: absolute;
+    top: 100px;
+    width: 400px;
+  }
+  

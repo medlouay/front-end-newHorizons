@@ -20,4 +20,6 @@ import userplus from "./userplus.svg";
 import claritycarline from "./claritycarline.svg";
 import whiteclock from "./whiteclock.svg";
 import noridecar from "./noridecar.svg";
-export{carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};
+import arrowuproghtgreen from "./arrowuproghtgreen.svg";
+import discountframe from "./discountframe.svg";
+export{discountframe,arrowuproghtgreen,carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};
