@@ -10,5 +10,7 @@ import OfferRideS2 from "./OfferRideS2/OfferRideS2";
 import OfferRideS3 from "./OfferRideS3/OfferRideS3";
 import OfferRideS4 from "./OfferRideS4/OfferRideS4";
 import RideSubmitted from "./RideSubmitted/RideSubmitted";
+import EventDetails from "./EventDetails/EventDetails";
+import OfferedRides from "./OfferedRides/OfferedRides";
 
-export { Header, Footer, Info, Event, Body, Navbar, Agenda, OfferRideS1, OfferRideS2, OfferRideS3, OfferRideS4, RideSubmitted};
+export { Header, Footer, Info, Event, Body, Navbar, Agenda, OfferRideS1, OfferRideS2, OfferRideS3, OfferRideS4, RideSubmitted,EventDetails, OfferedRides};

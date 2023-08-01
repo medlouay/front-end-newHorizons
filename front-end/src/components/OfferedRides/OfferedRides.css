@@ -1,0 +1,429 @@
+.frame-91,
+.frame-91 * {
+  box-sizing: border-box;
+}
+.frame-91 {
+  background: var(--foundation-orange-light-active, #f9dbc1);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 314px;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.users {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._1-seat-available {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-64 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-hand-coins {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._15-eur {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-50,
+.frame-50 * {
+  box-sizing: border-box;
+}
+.frame-50 {
+  background: #fffefe;
+  border-radius: 0px 10px 10px 10px;
+  width: 580px;
+  height: 204px;
+  position: relative;
+  box-shadow: 0px 4px 8px 0px rgba(242, 232, 224, 1);
+  overflow: hidden;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 146px;
+  top: 38px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._22-08-2023-09-00 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.map-pin {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.schlo-stra-e-2-01067-dresden-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+  width: 284px;
+}
+.line-3 {
+  position: absolute;
+  left: 249px;
+  top: 68px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 146px;
+  top: 132px;
+}
+._22-08-2023-11-10 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.map-pin2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.klingelh-ferstra-e-23-10785-berlin-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+  width: 284px;
+}
+.frame-65 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 36px;
+  top: 38px;
+}
+.frame-60 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.host {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.oliver-bern {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: center;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 86px;
+}
+.frame-66,
+.frame-66 * {
+  box-sizing: border-box;
+
+}
+.frame-66 {
+  background: var(--foundation-orange-light-active, #f9dbc1);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 319px;
+  left: 730px;
+  top: 0px;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.users {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._2-seats-available {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-64 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-hand-coins {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._9-eur {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+#div12{
+  position: absolute;
+  left: 730px;
+  
+}
+.frame-50-custom,
+.frame-50-custom * {
+  box-sizing: border-box;
+}
+.frame-50-custom {
+  background: #fffefe;
+  border-radius: 0px 10px 10px 10px;
+  width: 580px;
+  height: 204px;
+  position: relative;
+  box-shadow: 0px 4px 8px 0px rgba(242, 232, 224, 1);
+  overflow: hidden;
+  position: absolute;
+  left: 730px;
+  top: 45px;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 146px;
+  top: 38px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._22-08-2023-09-00 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.map-pin {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.schlo-stra-e-2-01067-dresden-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+  width: 284px;
+}
+.line-3 {
+  position: absolute;
+  left: 249px;
+  top: 68px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 146px;
+  top: 132px;
+}
+._22-08-2023-11-10 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.map-pin2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.klingelh-ferstra-e-23-10785-berlin-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+  width: 284px;
+}
+.frame-65 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 36px;
+  top: 38px;
+}
+.frame-60 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.host {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.hanna-seid {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: center;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 86px;
+}

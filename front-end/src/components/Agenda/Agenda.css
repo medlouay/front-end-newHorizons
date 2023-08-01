@@ -1,5 +1,5 @@
 
- #agenda{
+ #agenda-container{
         display: flex;
         width: 600px;
         flex-direction: column;
@@ -17,4 +17,7 @@ font-weight: 500;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 
+ }
+ .calander-text{
+       
  }
