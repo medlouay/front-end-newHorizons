@@ -1,0 +1,82 @@
+.frame-footer {
+    border: 1px none;
+    height: 191px;
+    width: 1440px;
+  }
+  
+  .frame-footer .overlap-group-footer {
+    background-image: url(./rectangle-47.svg);
+    background-size: 100% 100%;
+    height: 162px;
+    left: 70px;
+    position: relative;
+    width: 1370px;
+  }
+  
+  .frame-footer .div-footer {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 60px;
+    left: 497px;
+    position: absolute;
+    top: 76px;
+  }
+  
+  .frame-footer .text-wrapper-footer {
+    color: var( --grey-dark);
+    font-family: now;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-footer .about-us-wrapper-footer {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .frame-footer .union-footer {
+    left: 130px !important;
+    position: absolute !important;
+    top: 40px !important;
+    
+  }
+  @font-face {
+    font-family:Black_Bones ;
+    src: url(../../../Black_Bones.ttf);
+}
+  
+  .frame-footer .new-horizons-footer {
+    color: var( --grey-dark);
+    font-family: Black_Bones;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1078px;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    position: absolute;
+    top: 70px;
+    white-space: nowrap;
+  }
+  
+  .frame-footer .span-footer {
+    color: #2d3536;
+    font-family: Black_Bones;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.8px;
+  }
+  
+  .frame-footer .text-wrapper-2-footer {
+    font-family: now;
+  }
+  

@@ -47,7 +47,7 @@ text-transform: uppercase;
 
 header .cta h3{
     color: var(--foundation-grey-dark, #2D3536);
-font-family: Now;
+font-family: now;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -65,7 +65,7 @@ header .cta .explore-btn{
     align-items: center;
     gap: 10px;
     color: var(--foundation-orange-light, #FDF3EB);
-    font-family: Now;
+    font-family: now;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

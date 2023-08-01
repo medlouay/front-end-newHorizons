@@ -1,6 +1,10 @@
 import React from 'react'
 import Event from "../Event/Event";
+import { info,usercheck,users,userplus,mappin} from '../../assets';
+import "./Body.css";
 import Discount from "../Discount/Discount";
+import UpCommingRide from '../UpCommingRide/UpCommingRide';
+
 
 
 const Body = () => {
@@ -8,7 +12,8 @@ const Body = () => {
     <div>
     <Event/>
     <Discount/>
-    <div>Body</div></div>
+    <UpCommingRide/>
+    </div>
   )
 }
 

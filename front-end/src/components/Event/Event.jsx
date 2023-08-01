@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Event.css";
-import {calendar,arrowuproghtgreen,noridecar,mappin,users,usercheck,userplus,carline,clock,claritycarline,whiteclock } from "../../assets";
+import {calendar,info,arrowuproghtgreen,noridecar,mappin,users,usercheck,userplus,carline,clock,claritycarline,whiteclock } from "../../assets";
 
 const Event = () => {
   return (

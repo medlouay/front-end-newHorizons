@@ -16,6 +16,10 @@
     font-family: now;
     src: url(../../../public/Now-Regular.otf);
 }
+@font-face {
+    font-family:Black_Bones ;
+    src: url(../../../public/Black_Bones.ttf);
+}
  
 
 *,
