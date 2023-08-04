@@ -1,0 +1,305 @@
+.offer-ride-step-9,
+.offer-ride-step-9 * {
+  box-sizing: border-box;
+}
+.offer-ride-step-9 {
+  background: #fffefe;
+  border-radius: 10px;
+  width: 780px;
+  height: 802px;
+  position: relative;
+  overflow: hidden;
+}
+.x {
+  position: absolute;
+  left: 698px;
+  top: 30px;
+  overflow: visible;
+}
+.offer-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-weight: bold;
+}
+.frame-97 {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 350px;
+  top: 725px;
+}
+.submit-ride {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.step-4-of-4 {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 52px;
+  top: 116px;
+  font-weight: bold;
+}
+.frame-102 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50px;
+  top: 230px;
+}
+.number-of-available-seats {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-112 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80px;
+  height: 60px;
+  position: relative;
+}
+._1 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-67 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron-right {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.chevron-left {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.frame-109 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 51px;
+  top: 361px;
+}
+.frame-107 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+}
+.price-for-passengers {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-96-9 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-1092 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - -24px);
+  top: calc(50% - 12px);
+}
+.eur {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-672 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron-left2 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.frame-115 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 51px;
+  top: 500px;
+}
+.frame-110 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.comment-to-passengers-optional {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-962 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 381px;
+  height: 111px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-1072 {
+  display: flex;
+  flex-direction: row;
+  gap: 171px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 339px;
+  height: 18px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+._0-300 {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-98 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 51px;
+  top: 725px;
+}
+.back {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-124 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50px;
+  top: 177px;
+  overflow: hidden;
+}
+.frame-87 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ride-to-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.line-4 {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.ride-from-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
