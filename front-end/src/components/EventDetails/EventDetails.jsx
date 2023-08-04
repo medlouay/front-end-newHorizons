@@ -3,6 +3,7 @@ import './EventDetails.css';
 import Navbar from '../Navbar/Navbar'; // Adjust the path based on your file structure
 import Agenda from '../Agenda/Agenda';
 import OfferedRides from '../OfferedRides/OfferedRides';
+import Footer from '../Footer/Footer';
 const EventDetails = () => {
   return (
     <div id="EventDetailsWrapper">
@@ -186,6 +187,21 @@ Rides from the event
 
 <div id="id100">
 <OfferedRides/>
+</div>
+
+<div className="frame-97">
+      <div className="load-more">Load more</div>
+    </div>
+
+
+
+
+
+
+
+
+<div id='footer'>
+<Footer/>
 </div>
     </div>
   );

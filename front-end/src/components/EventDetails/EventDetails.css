@@ -23,11 +23,11 @@ color: #467471;
 
 #aboutevnttitle{
     color: var(--foundation-grey-dark, #2D3536);
-font-family: Now;
+  font: 500 20px/130% "Now", sans-serif;
 
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: bold;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 width: 517px;
@@ -65,16 +65,16 @@ top: 375px;
 left: 130px;
 }
 #when-and-where-title{
-    color: var(--foundation-grey-dark, #2D3536);
-font-family: Now;
-font-size: 20px;
 font-style: normal;
-font-weight: 500;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 position: absolute;
 top: 329px;
 left: 830px;
+color: var(--foundation-grey-dark, #2d3536);
+text-align: left;
+font: 500 20px/130% "Now", sans-serif;
+font-weight: bold;
 }
 #when-and-where-container{
     position: absolute;
@@ -152,7 +152,7 @@ left: 890px;
 font-family: Now;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: bold;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 
@@ -172,7 +172,7 @@ left: 130px;
 font-family: Now;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: bold;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 position: absolute;
@@ -262,7 +262,7 @@ border: 1px solid var(--foundation-green-normal, #5D9B96);
 font-family: Now;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: bold;
 line-height: 130%; /* 26px */
 text-transform: uppercase;
 position: absolute;
@@ -304,4 +304,37 @@ left: 313px;
   absolute;
   left: 130px;
   top: 1312px;
+}
+#footer{
+  position: absolute;
+  top: 2284px;
+}
+
+.frame-97,
+.frame-97 * {
+  box-sizing: border-box;
+
+}
+.frame-97 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  right: 140px;
+  top: 2140px;
+  
+  
+}
+.load-more {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
 }

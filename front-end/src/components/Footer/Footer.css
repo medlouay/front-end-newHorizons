@@ -1,0 +1,58 @@
+.frame-69,
+.frame-69 * {
+  box-sizing: border-box;
+}
+.frame-69 {
+  width: 1440px;
+  height: 191px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 76px;
+}
+.events {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.rides {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.union {
+  position: absolute;
+  left: 130px;
+  top: 67px;
+  overflow: visible;
+}
+
+
