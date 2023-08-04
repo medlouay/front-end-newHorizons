@@ -1,6 +1,6 @@
 import React from 'react'
 import "./UpCommingRide.css";
-import {usercheck,users,mappin, userplus} from "../../assets";
+import {usercheck,users,mappin, userplus,handcoins, messagecircle, calendar, arrowupright} from "../../assets";
 
 const UpCommingRide = () => {
   return (
@@ -92,11 +92,11 @@ const UpCommingRide = () => {
                   <p className="ecology-forum-for">ECOLOGY FORUM FOR CLIMATE CHANGE</p>
                   <div className="div-11">
                     <div className="div-12">
-                      <img className="img" alt="Users" src="users-2.svg" />
+                      <img className="img" alt="Users" src={users} />
                       <div className="text-wrapper">1 seat available</div>
                     </div>
                     <div className="div-12">
-                      <img className="img" alt="Ph hand coins" src="ph-hand-coins.svg" />
+                      <img className="img" alt="Ph hand coins" src={handcoins} />
                       <div className="text-wrapper">15 EUR</div>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ const UpCommingRide = () => {
                       <div className="div-4">
                         <div className="text-wrapper-2">09:00</div>
                         <div className="div-5">
-                          <img className="img" alt="Map pin" src="map-pin-2.svg" />
+                          <img className="img" alt="Map pin" src={mappin} />
                           <p className="text-wrapper">Schloßstraße 2, 01067 Dresden, Germany</p>
                         </div>
                       </div>
@@ -116,7 +116,7 @@ const UpCommingRide = () => {
                     <div className="div-4">
                       <div className="text-wrapper-2">11:10</div>
                       <div className="div-5">
-                        <img className="img" alt="Map pin" src="map-pin-3.svg" />
+                        <img className="img" alt="Map pin" src={mappin} />
                         <p className="text-wrapper">Klingelhöferstraße 23, 10785 Berlin, Germany</p>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-14">
-                    <img className="img" alt="User plus" src="user-plus-2.svg" />
+                    <img className="img" alt="User plus" src={userplus} />
                     <div className="text-wrapper-5">Join ride</div>
                   </div>
                   <div className="div-15">
@@ -173,12 +173,12 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-16">
-                    <img className="img" alt="Message circle" src="message-circle.svg" />
+                    <img className="img" alt="Message circle" src={messagecircle} />
                     <div className="text-wrapper">Message a driver</div>
                   </div>
                 </div>
                 <div className="div-17">
-                  <img className="img" alt="Calendar" src="calendar.svg" />
+                  <img className="img" alt="Calendar" src={calendar} />
                   <div className="text-wrapper">22/08/2023</div>
                 </div>
               </div>
@@ -189,11 +189,11 @@ const UpCommingRide = () => {
                   <p className="text-wrapper-10">GLOBAL WARMING: IS IT TOO LATE TO ACT?</p>
                   <div className="div-19">
                     <div className="div-20">
-                      <img className="img-3" alt="Users" src="users-4.svg" />
+                      <img className="img-3" alt="Users" src={users} />
                       <div className="text-wrapper-11">2 seats available</div>
                     </div>
                     <div className="div-20">
-                      <img className="img-3" alt="Ph hand coins" src="ph-hand-coins-3.svg" />
+                      <img className="img-3" alt="Ph hand coins" src={handcoins} />
                       <div className="text-wrapper-11">10 EUR</div>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ const UpCommingRide = () => {
                       <div className="div-21">
                         <div className="text-wrapper-12">09:00</div>
                         <div className="div-22">
-                          <img className="img-3" alt="Map pin" src="map-pin-6.svg" />
+                          <img className="img-3" alt="Map pin" src={mappin} />
                           <p className="text-wrapper-11">Schloßstraße 88, 01079 Vienna, Austria</p>
                         </div>
                       </div>
@@ -213,7 +213,7 @@ const UpCommingRide = () => {
                     <div className="div-21">
                       <div className="text-wrapper-12">11:10</div>
                       <div className="div-22">
-                        <img className="img-3" alt="Map pin" src="map-pin-7.svg" />
+                        <img className="img-3" alt="Map pin" src={mappin} />
                         <p className="text-wrapper-11">Klingelhöferstraße 23, 10785 Berlin, Germany</p>
                       </div>
                     </div>
@@ -234,7 +234,7 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-24">
-                    <img className="img-3" alt="User plus" src="user-plus-4.svg" />
+                    <img className="img-3" alt="User plus" src={userplus} />
                     <div className="text-wrapper-14">Join ride</div>
                   </div>
                   <div className="div-25">
@@ -261,13 +261,13 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-27">
-                    <img className="img-3" alt="Message circle" src="message-circle-3.svg" />
+                    <img className="img-3" alt="Message circle" src={messagecircle} />
                     <div className="text-wrapper-11">Message a driver</div>
                   </div>
                   <div className="text-wrapper-18">Event starts at 14:00</div>
                 </div>
                 <div className="div-28">
-                  <img className="img-3" alt="Calendar" src="calendar-3.svg" />
+                  <img className="img-3" alt="Calendar" src={calendar} />
                   <div className="text-wrapper-19">22/08/2023</div>
                 </div>
               </div>
@@ -278,11 +278,11 @@ const UpCommingRide = () => {
                   <p className="text-wrapper-10">ZERO WASTE: PHILOSOPHY OR WAY OF LIVING</p>
                   <div className="div-19">
                     <div className="div-20">
-                      <img className="img-3" alt="Users" src="users-3.svg" />
+                      <img className="img-3" alt="Users" src={users} />
                       <div className="text-wrapper-11">3 seats available</div>
                     </div>
                     <div className="div-20">
-                      <img className="img-3" alt="Ph hand coins" src="ph-hand-coins-2.svg" />
+                      <img className="img-3" alt="Ph hand coins" src={handcoins} />
                       <div className="text-wrapper-11">15 EUR</div>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ const UpCommingRide = () => {
                       <div className="div-21">
                         <div className="text-wrapper-12">09:00</div>
                         <div className="div-22">
-                          <img className="img-3" alt="Map pin" src="map-pin-4.svg" />
+                          <img className="img-3" alt="Map pin" src={mappin} />
                           <p className="text-wrapper-11">Schloßstraße 2, 01067 Dresden, Germany</p>
                         </div>
                       </div>
@@ -302,7 +302,7 @@ const UpCommingRide = () => {
                     <div className="div-21">
                       <div className="text-wrapper-12">11:10</div>
                       <div className="div-22">
-                        <img className="img-3" alt="Map pin" src="map-pin-5.svg" />
+                        <img className="img-3" alt="Map pin" src={mappin} />
                         <p className="text-wrapper-11">Klingelhöferstraße 23, 10785 Berlin, Germany</p>
                       </div>
                     </div>
@@ -324,7 +324,7 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-24">
-                    <img className="img-3" alt="User plus" src="user-plus-3.svg" />
+                    <img className="img-3" alt="User plus" src={userplus} />
                     <div className="text-wrapper-14">Join ride</div>
                   </div>
                   <div className="div-25">
@@ -344,13 +344,13 @@ const UpCommingRide = () => {
                     </div>
                   </div>
                   <div className="div-27">
-                    <img className="img-3" alt="Message circle" src="message-circle-2.svg" />
+                    <img className="img-3" alt="Message circle" src={messagecircle} />
                     <div className="text-wrapper-11">Message a driver</div>
                   </div>
                   <div className="text-wrapper-21">Event starts at 14:00</div>
                 </div>
                 <div className="div-28">
-                  <img className="img-3" alt="Calendar" src="calendar-2.svg" />
+                  <img className="img-3" alt="Calendar" src={calendar} />
                   <div className="text-wrapper-19">08/08/2023</div>
                 </div>
               </div>
@@ -359,7 +359,7 @@ const UpCommingRide = () => {
         </div>
         <div className="div-29">
           <div className="view-all-rides">VIEW ALL RIDES</div>
-          <img className="img" alt="Arrow up right" src="arrow-up-right.svg" />
+          <img className="img" alt="Arrow up right" src={arrowupright} />
         </div>
         <img className="img-5" alt="Frame" src="frame-67.svg" />
       </div>

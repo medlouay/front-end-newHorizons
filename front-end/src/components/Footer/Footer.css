@@ -25,6 +25,7 @@
   .frame-footer .text-wrapper-footer {
     color: var( --grey-dark);
     font-family: now;
+    list-style: none;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0;
@@ -79,4 +80,5 @@
   .frame-footer .text-wrapper-2-footer {
     font-family: now;
   }
+  
   

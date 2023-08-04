@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="frame-footer">
       <div className="overlap-group-footer">
         <div className="div-footer">
-          <div className="text-wrapper-footer">EVENTS</div>
+          <div className="text-wrapper-footer"><a href="#">EVENTS</a></div>
           <div className="text-wrapper-footer">RIDES</div>
           <div className="about-us-wrapper-footer">
             <div className="text-wrapper-footer">ABOUT US</div>
