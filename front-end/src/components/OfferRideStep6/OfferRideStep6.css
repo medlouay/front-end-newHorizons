@@ -1,0 +1,490 @@
+.offer-ride-step-6,
+.offer-ride-step-6 * {
+  box-sizing: border-box;
+}
+.offer-ride-step-6 {
+  background: #fffefe;
+  border-radius: 10px;
+  width: 1000px;
+  height: 882px;
+  position: relative;
+  overflow: hidden;
+}
+.x {
+  position: absolute;
+  left: 922px;
+  top: 54px;
+  overflow: visible;
+}
+.offer-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  font-weight: bold;
+}
+.step-3-of-4 {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 116px;
+  font-weight: bold;
+}
+.frame-104 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 381px;
+  position: absolute;
+  left: 559px;
+  top: 230px;
+}
+.departure-date-and-time {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+
+}
+.frame-96-6 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 381px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-123 {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 246px;
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 12px);
+}
+.select-date-and-time {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.calendar {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-119 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 281px;
+  position: absolute;
+  left: 559px;
+  top: 389px;
+}
+.departure-estimated-date-and-time6 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-121 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 281px;
+  position: absolute;
+  left: 560px;
+  top: 614px;
+}
+.arrival-estimated-date-and-time {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-113 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 230px;
+}
+.frame-102 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.from {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-962 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 481px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-106 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 441px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+.input-exact-address {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-97 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.select-on-map {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.chevron-left61 {
+  flex-shrink: 0;
+  transform: translate(0px, -16px);
+  overflow: visible;
+  position: absolute;
+  left: 100px;
+  top: 118px;
+}
+.frame-118 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 389px;
+}
+.also-stops-in {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.frame-1062 {
+  display: flex;
+  flex-direction: row;
+  gap: 283px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 441px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+.input-exact-address2 {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.search2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.chevron-left2 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -16px);
+  overflow: visible;
+}
+.frame-88 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 177px;
+  overflow: hidden;
+}
+.frame-87 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ride-to-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.line-4 {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.ride-from-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-972 {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 362px;
+  top: 782px;
+}
+.next {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-114 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 612px;
+}
+.frame-105 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.drop-off-point {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+.search3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-1063 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron-left3 {
+  flex-shrink: 0;
+  transform: translate(0px, -16px);
+  overflow: visible;
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+.frame-116 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 62px;
+  top: 781px;
+}
+.back {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 548px;
+}
+.plus-circle {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.add-a-stop {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-120-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 381px;
+  position: absolute;
+  left: 559px;
+  top: 437px;
+}
+.info6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.date-and-time-will-be-automatically-calculated {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-1232 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 381px;
+  position: absolute;
+  left: 560px;
+  top: 660px;
+}
+.info2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.just-add-an-input {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: absolute;
+  left: 646px;
+  top: 465px;
+}
+.select-on-map66-1,
+.select-on-map66-1 * {
+  box-sizing: border-box;
+}
+.select-on-map66-1 {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.select-on-map62,
+.select-on-map62 * {
+  box-sizing: border-box;
+}
+.select-on-map62 {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  position: absolute;
+  top:490px;
+  left: 60px;
+}
+.chevron-left62,
+.chevron-left62 * {
+  box-sizing: border-box;
+}
+.chevron-left62 {
+  flex-shrink: 0;
+  transform: translate(0px, -16px);
+  overflow: visible;
+  position: absolute;
+  top: 507px;
+  left:158px ;
+
+}

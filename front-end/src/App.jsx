@@ -4,6 +4,7 @@ import {path as SvgImage} from "./assets"
 import { RideDetails } from './components/RideDetails/RideDetails';
 import { OfferRideStep8 } from './components/OfferRideStep8/OfferRideStep8';
 import { OfferRideStep7 } from './components/OfferRideStep7/OfferRideStep7';
+import { OfferRideStep6 } from './components/OfferRideStep6/OfferRideStep6';
 
 const App = () => {
   return (<>
@@ -11,7 +12,7 @@ const App = () => {
       <SvgImage className="styled-svg" />
     </div> */}
   <div id='event-details-css'>
-  <OfferRideStep7/>
+  <OfferRideStep6/>
   </div>
 
   
