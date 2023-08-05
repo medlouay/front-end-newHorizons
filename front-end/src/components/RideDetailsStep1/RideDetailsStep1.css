@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "Black Bones";
+    src: url('/fonts/black_bones/Black Bones.ttf') format('truetype');
+    /* Add more font formats here if needed, e.g., .woff, .woff2 */
+  }
+  
+  .new-horizons {
+    font-family: "Black Bones", sans-serif;
+    /* Add other styles as needed */
+  }
+  
+.ride-details,
+.ride-details * {
+  box-sizing: border-box;
+}
+.ride-details {
+  width: 1440px;
+  height: 1706px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-42 {
+  opacity: 0.3499999940395355;
+  position: absolute;
+  left: 1229.29px;
+  top: 244px;
+  transform: translate(-1229.3px, 325.72px);
+  overflow: visible;
+}
+.frame-68 {
+  width: 1440px;
+  height: 286px;
+  position: absolute;
+  left: 0px;
+  top: 1420px;
+  overflow: hidden;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 133px;
+}
+.events {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.rides {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 130px;
+  top: 100px;
+}
+.new-horizons-app-icon-1 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.new-horizons {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/100% "Black Bones", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.header {
+  width: 1440px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1241px;
+  top: 63px;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--foundation-orange-normal, #ed8a37);
+  border-width: 1px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.icons {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 73px;
+}
+.icons2 {
+  position: absolute;
+  left: 1130px;
+  top: 71px;
+  overflow: visible;
+}
+.logo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 130px;
+  top: 40px;
+}
+.offer-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 200px;
+  font-weight: bold;
+  
+}
+.primary-button {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 130px;
+  top: 936px;
+}
+.button {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-123 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 327px;
+}
+.select-an-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+  font-weight: bold;
+  
+}
+.select-field-with-search {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 380px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-117 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+  position: absolute;
+  left: calc(50% - 170px);
+  top: calc(50% - 12px);
+}
+.placeholder {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+}
+.icons3 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.step-1-of-4 {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 132px;
+  top: 266px;
+  font-weight: bold;
+}
+.frame-124 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 458px;
+}
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.union {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.option-1 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.union2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.option-2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.union3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.select-field-with-search2 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  width: 380px;
+  height: 60px;
+  position: absolute;
+  left: 132px;
+  top: 561px;
+  overflow: hidden;
+}
+.enter-vin-of-the-car-you-ride-by {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  
+}
+.icons4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-69 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 132px;
+  top: 651px;
+}
+.icons5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-70 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more {
+  text-align: left;
+  font: var(--undefined, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  width: 644px;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span {
+  color: var(--foundation-grey-dark, #2d3536);
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  font: 400 14px/130% "Now", sans-serif;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span3 {
+  color: var(--foundation-green-normal, #5d9b96);
+  font: var(--linksmall, 400 14px/130% "Now", sans-serif);
+  text-decoration: underline;
+}
+.enter-vin {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: absolute;
+  left: 132px;
+  font-weight: bold;
+  
+  top: 530px;
+}
+.do-we-need-a-photo-in-desktop-version {
+  color: #ff0000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: absolute;
+  left: 412px;
+  top: 533px;
+}
+
+#footer-newHorizons{
+  color: var(--foundation-grey-dark, #2D3536);
+font-family: Black Bones;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+text-transform: uppercase;
+position: absolute;
+top: 1553px;
+left: 1148px;
+
+}
+#footer-2023{
+  color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%;
+position: absolute;
+top: 1553px;
+left: 1250px;
+}
