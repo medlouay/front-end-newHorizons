@@ -28,7 +28,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 .main-list {
-    margin-right: 306px;
+    margin-right: 150px;
   }
 
 .secondary-list{
@@ -36,12 +36,35 @@ nav ul li a{
 
 }
 
-.search{
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    margin-right: 40px;
-}
+/* Add your other styles here */
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    margin-right: 5px; /* Adjust as needed */
+    width: 20px; /* Adjust icon size as needed */
+    height: 20px;
+  }
+  
+  .search-bar {
+    color: var(--foundation-grey-light-active, #C3C6C6);
+    background-color: var(--orange-light);
+    border: none;
+    outline: none;
+    flex: 1; /* Expand to fill available space */
+    padding: 5px;
+    display: flex;
+
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+
+  }
+  
 
 .profile{
     width: 40px;
@@ -54,6 +77,34 @@ margin-right: 5px;
 .chevrondown{
     width: 24px;
     height: 24px; 
+}
+
+@font-face {
+  font-family: now;
+  src: url(../../../public/Now-Regular.otf);
+}
+.login-btn{
+display: flex;
+font-family: now;
+width: 128px;
+height: 44px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 2px solid var(--foundation-green-normal, #5D9B96);
+
+}
+.signup-btn{
+ display: flex;
+width: 128px;
+height: 44px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--foundation-green-normal, #5D9B96);
 }
   
   

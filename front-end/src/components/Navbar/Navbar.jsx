@@ -18,14 +18,15 @@ const Navbar = () => {
       </li>
     </ul>
     <ul className="secondary-list">
-      <li>
-        <a href="#"><img src={search} alt="search"className="search"/></a>
+      <li className="search-container">
+        <img src={search} alt="search" className="search-icon" />
+          <input type="text" placeholder="Search ..." className="search-bar" />
       </li>
       <li>
-        <a href="#"><img src={profile} alt="profile" className="profile"/></a>
+        <a href="/login" className="login-btn"> Log in </a>
       </li>
       <li>
-        <a href="#"><img src={chevrondown} alt="chevrondown"className="chevrondown"/></a>
+        <a href="#" className="signup-btn">Sign up </a>
       </li>
     </ul>
   </nav>

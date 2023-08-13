@@ -5,5 +5,6 @@ import Event from "./Event/Event";
 import Body from "./Body/Body";
 import Discount from "./Discount/Discount";
 import UpCommingRide from "./UpCommingRide/UpCommingRide";
+import Login from "./Login/Login";
 
-export {Header,Footer,Info,Event,Body,Discount,UpCommingRide}
+export {Header,Login,Footer,Info,Event,Body,Discount,UpCommingRide}
