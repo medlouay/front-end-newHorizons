@@ -1,7 +1,7 @@
 import React from "react";
 import "./RideDetailsStep3.css";
 
-export const RideDetails = ({ ...props }) => {
+export const RideDetailsStep3 = ({ ...props }) => {
   return (
     <div className="ride-details">
       <svg
@@ -39,7 +39,7 @@ export const RideDetails = ({ ...props }) => {
         <div className="logo">
           <img
             className="new-horizons-app-icon-1"
-            src="new-horizons-app-icon-1.png"
+            src="src\assets\new-horizons-app-icon-1.png"
           />
 
           <div className="new-horizons">New horizons</div>
@@ -107,7 +107,7 @@ export const RideDetails = ({ ...props }) => {
         <div className="logo2">
           <img
             className="new-horizons-app-icon-1"
-            src="new-horizons-app-icon-1.png"
+            src="src\assets\new-horizons-app-icon-1.png"
           />
 
           <div className="new-horizons">New horizons</div>
@@ -120,7 +120,7 @@ export const RideDetails = ({ ...props }) => {
 
       <div className="frame-125">
         <div className="frame-102">
-          <div className="pick-up-point">Pick-up point</div>
+          <div className="pick-up-point3">Pick-up point</div>
 
           <div className="search-field">
             <div className="frame-106">
@@ -582,13 +582,13 @@ export const RideDetails = ({ ...props }) => {
 
       <div className="frame-159">
         <div className="tabs">
-          <div className="ride-to-the-event">Ride to the event</div>
+          <div className="ride-to-the-event3">Ride to the event</div>
 
           <div className="rectangle-48"></div>
         </div>
 
         <div className="tabs">
-          <div className="ride-to-the-event">Ride from the event</div>
+          <div className="ride-to-the-event33">Ride from the event</div>
         </div>
       </div>
 

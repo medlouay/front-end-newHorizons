@@ -165,6 +165,7 @@
   position: absolute;
   left: 130px;
   top: 213px;
+  font-weight: bold;
 }
 .step-3-of-4 {
   color: var(--foundation-green-normal, #5d9b96);
@@ -174,6 +175,7 @@
   position: absolute;
   left: 130px;
   top: 273px;
+  font-weight: bold;
 }
 .frame-125 {
   display: flex;
@@ -194,11 +196,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.pick-up-point {
+.pick-up-point3 {
   color: var(--foundation-grey-dark, #2d3536);
   text-align: left;
   font: var(--labeltext, 500 16px/130% "Now", sans-serif);
   position: relative;
+  font-weight: bold;
+  
 }
 .search-field {
   border-radius: 10px;
@@ -537,7 +541,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.ride-to-the-event {
+.ride-to-the-event3 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.ride-to-the-event33{
   color: var(--foundation-grey-dark, #2d3536);
   text-align: left;
   font: var(--labeltext, 500 16px/130% "Now", sans-serif);
