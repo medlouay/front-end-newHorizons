@@ -1,5 +1,5 @@
 .log-in {
-    background-color: #fffefe;
+  margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,9 +9,10 @@
   .log-in .div-2 {
     background-color: #fffefe;
     border: 1px none;
-    height: 579px;
+    height: 600px;
     position: relative;
     width: 600px;
+    border-radius: 10px;
   }
   
   .log-in .name-cross-icon-size-l {
@@ -51,13 +52,14 @@
   }
   
   .log-in .welcome-to-new {
-    color: var(--foundationgreydark);
-    font-family: var(--h3-font-family);
-    font-size: var(--h3-font-size);
-    font-style: var(--h3-font-style);
-    font-weight: var(--h3-font-weight);
-    letter-spacing: var(--h3-letter-spacing);
-    line-height: var(--h3-line-height);
+    color: var(--foundation-grey-dark, #2D3536);
+/* H3 */
+font-family: Now;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 100%; /* 20px */
+text-transform: uppercase;
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
@@ -77,24 +79,25 @@
   }
   
   .log-in .text-wrapper-3 {
-    color: #2d3536;
-    font-family: var(--p2-font-family);
-    font-size: var(--p2-font-size);
-    font-style: var(--p2-font-style);
-    font-weight: var(--p2-font-weight);
-    letter-spacing: var(--p2-letter-spacing);
-    line-height: var(--p2-line-height);
+    color: var(--foundation-grey-dark, #2D3536);
+
+/* P2 */
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
   }
   
   .log-in .text-wrapper-4 {
-    color: #5d9b96;
-    font-family: var(--link-font-family);
-    font-size: var(--link-font-size);
-    font-style: var(--link-font-style);
-    font-weight: var(--link-font-weight);
-    letter-spacing: var(--link-letter-spacing);
-    line-height: var(--link-line-height);
-    text-decoration: underline;
+    color: var(--foundation-green-normal, #5D9B96);
+/* Link */
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+text-decoration-line: underline;
   }
   
   .log-in .frame-5 {
@@ -107,13 +110,13 @@
   }
   
   .log-in .text-wrapper-5 {
-    color: var(--foundationgreydark);
-    font-family: var(--label-text-font-family);
-    font-size: var(--label-text-font-size);
-    font-style: var(--label-text-font-style);
-    font-weight: var(--label-text-font-weight);
-    letter-spacing: var(--label-text-letter-spacing);
-    line-height: var(--label-text-line-height);
+    color: var(--foundation-grey-dark, #2D3536);
+/* Label text */
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 20.8px */
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
@@ -121,17 +124,24 @@
   }
   
   .log-in .input-field {
-    position: relative !important;
+    display: flex;
+    width: 380px;
+    height: 60px;
+    padding: 21px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
   }
   
   .log-in .text-wrapper-6 {
-    color: var(--foundationgreydark);
-    font-family: var(--p3-font-family);
-    font-size: var(--p3-font-size);
-    font-style: var(--p3-font-style);
-    font-weight: var(--p3-font-weight);
-    letter-spacing: var(--p3-letter-spacing);
-    line-height: var(--p3-line-height);
+    color: var(--foundation-grey-dark, #2D3536);
+/* P3 */
+font-family: Now;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
@@ -147,7 +157,38 @@
   }
   
   .log-in .icon-instance-node {
-    height: 24px !important;
-    position: relative !important;
-    width: 24px !important;
+  width: 24px;
+  height: 24px;
+  padding: 1px 0.964px 1px 1px;
+  justify-content: center;
+  align-items: center;
   }
+
+  .password-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-icon {
+    cursor: pointer;
+    margin-left: -40px; /* Adjust as needed */
+    width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  }
+.log_in{
+    display: flex;
+width: 230px;
+height: 44px;
+padding: 10px 75px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    border-radius: 10px;
+background: var(--foundation-green-normal, #5D9B96);
+text-decoration: none;
+font-family: now;
+color: var(--foundation-orange-light, #FDF3EB);
+  }
+
+  
