@@ -31,4 +31,5 @@ import Eyeon from "./Eyeon.svg";
 import facebook from "./facebook.svg";
 import apple from "./apple.svg";
 import google from "./google.svg";
-export{discountframe,facebook,google,apple,Eyeoff,Eyeon,handcoins,messagecircle,info,Logo,arrowuproghtgreen,carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};
+import chevronright from "./chevronright.svg"
+export{discountframe,chevronright,facebook,google,apple,Eyeoff,Eyeon,handcoins,messagecircle,info,Logo,arrowuproghtgreen,carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};
