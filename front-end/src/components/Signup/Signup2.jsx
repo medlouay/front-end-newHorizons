@@ -8,6 +8,11 @@ const Signup2 = () => {
         username: "",
         password: ""
     });
+
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+
+    /************************************* */
     const maxWords = 301; // Adjust this according to your desired max word limit
 
     const handleTextChange = (event) => {
@@ -19,27 +24,37 @@ const Signup2 = () => {
         }
     };
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
+    // const handleChange = (event) => {
+    //     const { name, value } = event.target;
+    //     setFormData((prevData) => ({
+    //         ...prevData,
+    //         [name]: value,
+    //     }));
+    // };
 
-    const handleSubmit = (event) => {
+    async function handleSubmit(event) {
         event.preventDefault();
+        try {
+            await axios.post("http://127.0.0.1:8080/api/auth/register", {
+                username: username,
+                password: password,
+            });
+            if (Response)
+            alert("user has been signup succ");
+        } catch (err) {
+            alert(err)
 
-        axios.post("http://127.0.0.1:8080/api/auth/register", {
-            "username": "louay",
-            "password": "123"
-          })
-            .then((response) => {
-                console.log('API Response:', response.data); // Registration successful message
-            })
-            .catch((error) => {
-                console.error('Error:', error)}); // Log the error;
-    };
+        }
+        // axios.post("http://127.0.0.1:8080/api/auth/register", {
+        //     "username": "louay",
+        //     "password": "123"
+        //   })
+        //     .then((response) => {
+        //         console.log('API Response:', response.data); // Registration successful message
+        //     })
+        //     .catch((error) => {
+        //         console.error('Error:', error)}); // Log the error;
+    }
     return (
         <div className="sign-up-enter-your">
             <div className="div-2">
@@ -55,12 +70,16 @@ const Signup2 = () => {
                             <div className="frame-5">
                                 {/* <InputField className="design-component-instance-node" state="default" text="Enter your first name" /> */}
                                 <div className="text-wrapper-3">First name</div>
-                                <input type="text" placeholder="Enter your first name" className="design-component-instance-node" value={formData.username} onChange={handleChange} />
+                                <input type="text" placeholder="Enter your first name" className="design-component-instance-node" value={username} onChange={(event) => {
+                                    setUsername(event.target.value);
+                                }} />
                             </div>
                             <div className="frame-5">
                                 {/* <InputField className="design-component-instance-node" state="default" text="Enter your last name" /> */}
                                 <div className="text-wrapper-3">Last name</div>
-                                <input type="text" placeholder="Enter your last name" className="design-component-instance-node" value={formData.password} onChange={handleChange} />
+                                <input type="text" placeholder="Enter your last name" className="design-component-instance-node" value={password} onChange={(event) => {
+                                    setPassword(event.target.value)
+                                }} />
                             </div>
                             <div className="frame-5">
                                 {/* <SelectFieldWith
@@ -69,7 +88,7 @@ const Signup2 = () => {
                   text="Select your interests for better networking"
                 /> */}
                                 <div className="text-wrapper-3">Your interests</div>
-                                <select className="design-component-instance-node" placeholder="Select your interests for better networking" value={formData.interests} onChange={handleChange}>
+                                <select className="design-component-instance-node" placeholder="Select your interests for better networking" >
                                     <option value="" disabled selected>
                                         Select your interests for better networking
                                     </option>

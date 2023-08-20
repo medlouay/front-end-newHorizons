@@ -2,12 +2,52 @@ import React from 'react'
 import './Login.css';
 import { useState } from 'react';
 import { Eyeoff, Eyeon, facebook, google, apple } from "../../assets";
+import axios from 'axios';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword(prevState => !prevState);
+  };
+
+
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleUsernameChange = (event) => {
+    setUsername(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const handleLogin = (event) => {
+    event.preventDefault();
+
+    const credentials = {
+      username: username,
+      password: password,
+    };
+
+    // Make the authentication request
+    axios.post('http://127.0.0.1:8080/api/auth/login', credentials)
+      .then((response) => {
+        // Extract the token from the response data
+        const authToken = response.data.accessToken;
+
+        // Store the token securely (e.g., in localStorage)
+        localStorage.setItem('authToken', authToken);
+        console.log(authToken);
+
+        // Update authenticated state in your application
+        // (e.g., using a state management library like Redux or React Context)
+      })
+      .catch((error) => {
+        // Handle authentication error
+        console.error('Authentication error:', error);
+      });
   };
   return (
     <div className="log-in">
@@ -26,13 +66,13 @@ const Login = () => {
             <div className="frame-4">
               <div className="frame-5">
                 <div className="text-wrapper-5">Email address</div>
-                <input type="email" placeholder="Enter your email address" className="input-field" />
+                <input type="email" placeholder="Enter your email address" value={username} onChange={handleUsernameChange} className="input-field" />
 
               </div>
               <div className="frame-5">
                 <div className="text-wrapper-5">Password</div>
                 <div className="password-input">
-                  <input type={showPassword ? "text" : "password"} placeholder="Enter password from your account" className="input-field" />
+                  <input type={showPassword ? "text" : "password"} placeholder="Enter password from your account" value={password} onChange={handlePasswordChange} className="input-field" />
                   <span className="toggle-icon" onClick={togglePasswordVisibility}>
                     <img src={showPassword ? Eyeon : Eyeoff} alt="Toggle Password" />
                   </span>
@@ -57,7 +97,7 @@ const Login = () => {
             </div>
           </div>
 
-          <a href="#" className="log_in"> Log in </a>
+          <a href="#" className="log_in" onClick={handleLogin}> Log in </a>
 
         </div>
       </div>
