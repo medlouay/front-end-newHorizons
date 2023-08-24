@@ -1,14 +1,36 @@
 nav{
     
-    top: 24px;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    z-index: 300;
+  background-color: whitesmoke;
+  padding: 10px; /* Add padding as needed */
+  top: 24px;
+  left: 10px; /* Add margin from the left */
+  right: 10px; /* Add margin from the right */
+  width: calc(100% - 20px); /* Calculate width considering margins */
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  z-index: 300;
+  position: fixed; /* Keep the navbar fixed at the top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 15px; /* Add border radius for rounded edges */
+  margin-top: 8px; /* Add margin on top */
+  /* Other styles for the navbar */
+
+
 }
 .logo {
-    margin-right: 243px; /* Adjust this value as needed */
-  }
+  position: absolute;
+
+    
+      width: 80px; /* Adjust the width as needed */
+ left: 40px;
+ top: 5px;
+   
+        height: auto; /* This maintains the aspect ratio */
+        vertical-align: middle;
+        margin-right: 100px; /* Add some spacing between the logo and text */
+    }
+  
 
 nav ul{
     display: flex;
@@ -26,9 +48,12 @@ nav ul li a{
     font-weight: 400;
     line-height: 130%; /* 20.8px */
     text-transform: uppercase;
+    margin-left: 50px;
+
 }
 .main-list {
-    margin-right: 150px;
+    position: absolute;
+    left: 350px; 
   }
 
 .secondary-list{
@@ -44,14 +69,20 @@ nav ul li a{
   }
   
   .search-icon {
-    margin-right: 5px; /* Adjust as needed */
+    top: 32px;
+    position: absolute;
+    right: 580px;
     width: 20px; /* Adjust icon size as needed */
     height: 20px;
   }
   
   .search-bar {
+    position: absolute;
+
+    top: 30px;
+    right: 400px;
     color: var(--foundation-grey-light-active, #C3C6C6);
-    background-color: var(--orange-light);
+    background-color: whitesmoke;
     border: none;
     outline: none;
     flex: 1; /* Expand to fill available space */
@@ -84,6 +115,8 @@ margin-right: 5px;
   src: url(../../../public/Now-Regular.otf);
 }
 .login-btn{
+  position: absolute;
+  right: 200px;
 display: flex;
 font-family: now;
 width: 128px;
@@ -96,6 +129,8 @@ border: 2px solid var(--foundation-green-normal, #5D9B96);
 
 }
 .signup-btn{
+  position: absolute;
+  right: 50px;
  display: flex;
 width: 128px;
 height: 44px;
@@ -106,5 +141,8 @@ flex-shrink: 0;
 border-radius: 10px;
 background: var(--foundation-green-normal, #5D9B96);
 }
-  
+.divider {
+  border-top: 1px solid #0f0e0e; /* Change color and thickness as needed */
+  margin: 20px 0; /* Adjust margin as needed */
+}
   

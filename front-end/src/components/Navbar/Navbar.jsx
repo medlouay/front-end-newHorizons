@@ -5,7 +5,9 @@ import {search,profile ,chevrondown} from "../../assets";
 
 const Navbar = () => {
   return <nav>
-    <a href="#" className="logo">NEW HORIZONS</a>
+    <a href="#" className="logo">
+    <img src="src/assets/logo1.png" alt="logo1" className="logo"/> 
+</a>
     <ul className="main-list">
       <li>
         <a href="#">events</a>
@@ -28,8 +30,13 @@ const Navbar = () => {
       <li>
         <a href="/signup" className="signup-btn">Sign up </a>
       </li>
+
+          <div className="divider"></div>
+
     </ul>
+
   </nav>
+
 }
 
 export default Navbar
