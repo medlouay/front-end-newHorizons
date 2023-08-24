@@ -1,5 +1,5 @@
 import React from 'react'
-import{Info,Header,Footer,Body,Event,OfferRideS1, OfferRideS2, OfferRideS3, OfferRideS4,RideSubmitted, Agenda, EventDetails, OfferedRides} from "./components"
+import{Info,Header,Footer,Event,OfferRideS1, OfferRideS2, OfferRideS3, OfferRideS4,RideSubmitted, Agenda, EventDetails, OfferedRides} from "./components"
 import {path as SvgImage} from "./assets"
 import { RideDetails } from './components/RideDetails/RideDetails';
 import { OfferRideStep8 } from './components/OfferRideStep8/OfferRideStep8';
@@ -15,7 +15,7 @@ const App = () => {
       <SvgImage className="styled-svg" />
     </div> */}
   <div id='event-details-css'>
-  <RideDetailsStep3/>
+  <Footer/>
   </div>
 
   
