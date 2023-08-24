@@ -1,18 +1,21 @@
 import React from 'react'
 import "./Discount.css";
+import ImageSlider from '../ImageSlider/ImageSlider';
 import {discountframe} from "../../assets";
 
 const Discount = () => {
+
+  const images = [
+    'src/assets/ad1.jpg',
+    'src/assets/ad2.png',
+    'src/assets/ad3.png',
+
+
+    
+  ];
   return (
-    <div className="frame-discount">
-      <div className="overlap-group-discount">
-        <div className="div-discount">
-          <div className="get-discount">GET</div>
-          <h1 className="element-discount-discount">10 % DISCOUNT</h1>
-          <div className="on-your-first-ride-discount">ON YOUR FIRST RIDE</div>
-        </div>
-        <img className="img-discount" alt="Frame" src={discountframe} />
-      </div>
+      <div className="App">
+      <ImageSlider images={images} />
     </div>
   )
 }

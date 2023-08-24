@@ -1,0 +1,30 @@
+/* ImageSlider.css */
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .arrow {
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 50%; /* Rounded for circular shape */
+  }
+  
+  .prev {
+    margin-right: 16px;
+  }
+  
+  .next {
+    margin-left: 16px;
+  }
+  

@@ -8,5 +8,6 @@ import UpCommingRide from "./UpCommingRide/UpCommingRide";
 import Login from "./Login/Login";
 import Signup from "./Signup/Signup";
 import Signup2 from "./Signup/Signup2";
+import ImageSlider from "./ImageSlider/ImageSlider";
 
-export {Header,Signup,Signup2,Login,Footer,Info,Event,Body,Discount,UpCommingRide}
+export {Header,Signup,Signup2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,ImageSlider}

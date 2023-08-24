@@ -12,6 +12,8 @@
     left: 70px;
     position: relative;
     width: 1266px;
+  
+    border-radius: 20px; /* Add border-radius for rounded edges */
   }
   
   .frame-discount .div-discount {

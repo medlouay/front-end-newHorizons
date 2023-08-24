@@ -1,23 +1,22 @@
 nav{
-    
   background-color: whitesmoke;
-  padding: 10px; /* Add padding as needed */
-  top: 24px;
-  left: 10px; /* Add margin from the left */
-  right: 10px; /* Add margin from the right */
-  width: calc(100% - 20px); /* Calculate width considering margins */
+  position: absolute;
+
+  padding: 10px;
+  top: 5px; /* Fix the navbar at the top */
+  left: 10px;
+  right: 10px;
   justify-content: space-between;
   align-items: center;
   display: flex;
   z-index: 300;
-  position: fixed; /* Keep the navbar fixed at the top */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  border-radius: 15px; /* Add border radius for rounded edges */
-  margin-top: 8px; /* Add margin on top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-top: 8px;
   /* Other styles for the navbar */
-
-
+  
 }
+
 .logo {
   position: absolute;
 
