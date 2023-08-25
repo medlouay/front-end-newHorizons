@@ -1,16 +1,25 @@
-import React, { useState } from 'react'
-import './Signup2.css';
+import React, { useState, useEffect } from 'react'
+import './Step2.css';
 import { chevronright } from '../../assets';
+import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-const Signup2 = () => {
+import SuccessPage from './SuccessPage';
+const Step2 = ({ nextStep, handleFormData, values, prevStep }) => {
     const [text, setText] = useState("");
-    const [formData, setFormData] = useState({
-        username: "",
-        password: ""
-    });
+    const { username, password, emailUser, dateUser, aboutUser } = values;
+    const navigate = useNavigate();
+    /********************** */
 
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [usernameError, setUsernameError] = useState('');
+    const [lastnameError, setlastnameError] = useState('');
+    const [optionError, setoptionError] = useState('');
+
+    /************************* */
+
+
+    let isError = true;
+
+
 
     /************************************* */
     const maxWords = 301; // Adjust this according to your desired max word limit
@@ -34,35 +43,55 @@ const Signup2 = () => {
 
     async function handleSubmit(event) {
         event.preventDefault();
-        try {
-            await axios.post("http://127.0.0.1:8080/api/auth/register", {
-                username: username,
-                password: password,
-            });
-            if (Response)
-            alert("user has been signup succ");
-        } catch (err) {
-            alert(err)
-
+        console.log(values);
+        if (!values.username) {
+            setUsernameError("First name is required");
+            setlastnameError("Last name is required");
+            setoptionError(" Option name is required");
+        } else {
+            setUsernameError(""); // Clear the error if the field is not empty
         }
-        // axios.post("http://127.0.0.1:8080/api/auth/register", {
-        //     "username": "louay",
-        //     "password": "123"
-        //   })
-        //     .then((response) => {
-        //         console.log('API Response:', response.data); // Registration successful message
-        //     })
-        //     .catch((error) => {
-        //         console.error('Error:', error)}); // Log the error;
+
+        if (values.username) {
+            // Move to the next step if both fields are not empty
+
+
+
+
+
+            try {
+                const response = await axios.post("http://127.0.0.1:8080/api/auth/register", values);
+                if (Response || response.status === 200)
+
+                    isError = true;
+                console.log("user has been signup succ");
+                console.log(isError);
+                navigate('/success');
+
+            } catch (err) {
+
+                console.log("user has been signup failed");
+
+                isError = true;
+
+                console.log(isError);
+                navigate('/failed');
+
+
+            }
+        }
     }
     return (
         <div className="sign-up-enter-your">
+
+
+
             <div className="div-2">
                 {/* <NameCrossIconSizeL className="name-cross-icon-size-l" />
         <Icons className="icons-instance" /> */}
-                <a href="/signup">
+                <button className="navigation-button" onClick={prevStep}>
                     <img src={chevronright} alt="chevronright" className="icons-instance" />
-                </a>
+                </button>
                 <div className="frame-2">
                     <div className="frame-3">
                         <div className="sign-up">SIGN UP</div>
@@ -70,16 +99,17 @@ const Signup2 = () => {
                             <div className="frame-5">
                                 {/* <InputField className="design-component-instance-node" state="default" text="Enter your first name" /> */}
                                 <div className="text-wrapper-3">First name</div>
-                                <input type="text" placeholder="Enter your first name" className="design-component-instance-node" value={username} onChange={(event) => {
-                                    setUsername(event.target.value);
-                                }} />
+                                
+                               
+                                <input type="text" placeholder="Enter your first name" className="design-component-instance-node" defaultValue={values.username} onChange={handleFormData("username")}  style={{ borderColor: usernameError ? 'red' : '' }}/>
+                                {usernameError && <p className="error-message">{usernameError}</p>}
                             </div>
+
                             <div className="frame-5">
                                 {/* <InputField className="design-component-instance-node" state="default" text="Enter your last name" /> */}
                                 <div className="text-wrapper-3">Last name</div>
-                                <input type="text" placeholder="Enter your last name" className="design-component-instance-node" value={password} onChange={(event) => {
-                                    setPassword(event.target.value)
-                                }} />
+                                {lastnameError && <p className="error-message">{lastnameError}</p>}
+                                <input type="text" placeholder="Enter your last name" className="design-component-instance-node" style={{ borderColor: usernameError ? 'red' : '' }} />
                             </div>
                             <div className="frame-5">
                                 {/* <SelectFieldWith
@@ -88,7 +118,8 @@ const Signup2 = () => {
                   text="Select your interests for better networking"
                 /> */}
                                 <div className="text-wrapper-3">Your interests</div>
-                                <select className="design-component-instance-node" placeholder="Select your interests for better networking" >
+                                {optionError && <p className="error-message">{optionError}</p>}
+                                <select className="design-component-instance-node" placeholder="Select your interests for better networking" style={{ borderColor: usernameError ? 'red' : '' }} >
                                     <option value="" disabled selected>
                                         Select your interests for better networking
                                     </option>
@@ -103,18 +134,19 @@ const Signup2 = () => {
                                     className="design-component-instance-node1"
                                     placeholder="Tell your companions more about yourself and what kind of opportunities you are looking for"
 
-                                    onChange={handleTextChange}
-                                    value={formData.about}
+                                    onChange={handleFormData("aboutUser")}
+
+                                    defaultValue={values.aboutUser}
                                 />
                                 <p className="reward"> 0/{maxWords - text.trim().split(/\s+/).length}</p>
                             </div>
                         </div>
                     </div>
-                    <a href="/signup/next" onClick={handleSubmit} className="signup"> Sign up </a>
+                    <a href="" onClick={handleSubmit} className="signup"> Sign up </a>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Signup2
+export default Step2

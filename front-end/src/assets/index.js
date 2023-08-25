@@ -32,4 +32,5 @@ import facebook from "./facebook.svg";
 import apple from "./apple.svg";
 import google from "./google.svg";
 import chevronright from "./chevronright.svg"
-export{discountframe,chevronright,facebook,google,apple,Eyeoff,Eyeon,handcoins,messagecircle,info,Logo,arrowuproghtgreen,carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};
+import logo1 from "./logo1.png"
+export{discountframe,logo1,chevronright,facebook,google,apple,Eyeoff,Eyeon,handcoins,messagecircle,info,Logo,arrowuproghtgreen,carline,noridecar,whiteclock,claritycarline,clock,calendar,mappin,users,usercheck,userplus,frame,image,frame2,frame3,Union,search,profile,chevrondown,line2,Cardrivingbro,arrowupright,path};

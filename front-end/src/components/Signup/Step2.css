@@ -145,4 +145,11 @@ line-height: 130%; /* 20.8px */
     font-family: now;
     color: var(--foundation-orange-light, #FDF3EB);
   }
+
+  .navigation-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
   
