@@ -1,0 +1,180 @@
+/* styles.css */
+
+/* Title */
+#title {
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 130%; /* 26px */
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  /* Step 2 */
+  #st2 {
+    color: #5D9B96;
+    font-family: Consolas;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 116px;
+    left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Picker 1 */
+  #picker1 {
+    
+    display: inline-flex;
+    padding: 18px 60px;
+    position: absolute;
+    width: 280px;
+    top: 208px;
+    left: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Container 2 */
+  #container2 {
+    position: relative;
+    width: 780px;
+    height: 584px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px #f2e8e0;
+  }
+  
+  /* Car Make */
+  #carmake {
+    position: absolute;
+    top: 177px;
+    left: 50px;
+    font-family: Consolas;
+    font-weight: bold;
+  }
+  
+  /* Car Model */
+  #carmodel {
+    position: absolute;
+    top: 177px;
+    left: 350px;
+    font-family: Consolas;
+    font-weight: bold;
+  }
+  
+  /* Picker 2 */
+  #picker2 {
+    padding: 18px 60px;
+    position: absolute;
+    top: 208px;
+    left: 350px;
+    border-radius: 10px;
+    width: 280px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Car Year */
+  #caryear {
+    position: absolute;
+    top: 277px;
+    left: 50px;
+    font-family: Consolas;
+    font-weight: bold;
+  }
+  
+  /* Car Model Input */
+  #carModelinput {
+    padding: 18px 60px;
+    width: 280px;
+    position: absolute;
+    top: 308px;
+    left: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Paragraph 1 */
+  #paragraph1 {
+    position: absolute;
+    top: 408px;
+    left: 84px;
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    width: 644px;
+  }
+  
+  /* Icon 1 */
+  #icon1 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50px;
+    top: 408px;
+  }
+  
+  /* Back Button 1 */
+  #backbutton1 {
+    font: Consolas;
+    position: absolute;
+    top: 504px;
+    left: 50px;
+    display: flex;
+    width: 230px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Next Button 1 */
+  #nextbutton1 {
+    font-family: Consolas;
+    position: absolute;
+    top: 504px;
+    left: 350px;
+    display: flex;
+    width: 230px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+    background: var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Link 1 */
+  #link1 {
+    color: var(--foundation-green-normal, #5D9B96);
+    font-family: Consolas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    text-decoration-line: underline;
+  }
+  /* Disable default blue color for links */
+#back-link {
+    color: black; /* You can use any color you prefer */
+    text-decoration: none; /* Remove underline if desired */
+  }
+  
+ 
+ #back-link:hover {
+    color:black; /* You can use any color you prefer */
+  }
+   /* Style for hovered links */

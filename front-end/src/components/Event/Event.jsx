@@ -49,10 +49,13 @@ const Event = () => {
                   </div>
                 </div>
                 <div className="frame-8-event">
+                <a href="offer-ride-step1"> 
                   <img className="img-event" alt="Clarity car line" src={claritycarline} />
                   <div className="text-wrapper-2-event">Offer ride</div>
+                  </a>
                 </div>
                 <div className="frame-9-event">
+                
                   <img className="img-event" alt="User plus" src={userplus} />
                   <div className="text-wrapper-5-event">Join ride</div>
                 </div>

@@ -6,8 +6,15 @@ import Body from "./Body/Body";
 import Discount from "./Discount/Discount";
 import UpCommingRide from "./UpCommingRide/UpCommingRide";
 import Login from "./Login/Login";
+import Navbar from "./Navbar/Navbar";
 import Signup from "./Signup/Signup";
-import Signup2 from "./Signup/Signup2";
-import ImageSlider from "./ImageSlider/ImageSlider";
-
-export {Header,Signup,Signup2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,ImageSlider}
+import Step1 from "./Signup/Step1";
+import Step2 from "./Signup/Step2";
+import SuccessPage from "./Signup/SuccessPage";
+import Failedpage from "./Signup/Failedpage";
+import OfferRideStep1 from "./OfferRide/OfferRideStep1";
+import OfferRide from "./OfferRide/OfferRide";
+import OfferRideStep2 from "./OfferRide/OfferRideStep2";
+import OfferRideStep3 from "./OfferRide/OfferRideStep3";
+import Map from "./map/Map";
+export {Header,Signup,Failedpage,SuccessPage,Step1,Step2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,Navbar,OfferRide,OfferRideStep1,OfferRideStep2,OfferRideStep3,Map}

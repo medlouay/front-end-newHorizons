@@ -2,10 +2,15 @@ import React from 'react'
 import './Login.css';
 import { useState } from 'react';
 import { Eyeoff, Eyeon, facebook, google, apple } from "../../assets";
+
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
+ 
 
   const togglePasswordVisibility = () => {
     setShowPassword(prevState => !prevState);
@@ -14,6 +19,8 @@ const Login = () => {
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [passwordError, setPasswordError] = useState('');
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -26,11 +33,29 @@ const Login = () => {
   const handleLogin = (event) => {
     event.preventDefault();
 
+
+
     const credentials = {
       username: username,
       password: password,
     };
+let isValid = true;
 
+    if (username === '') {
+      setEmailError('This field is required');
+      isValid = false;
+    } else {
+      setEmailError('');
+    }
+
+    if (password === '') {
+      setPasswordError('This field is required');
+      isValid = false;
+    } else {
+      setPasswordError('');
+    }
+
+    if (isValid) {
     // Make the authentication request
     axios.post('http://127.0.0.1:8080/api/auth/login', credentials)
       .then((response) => {
@@ -40,7 +65,7 @@ const Login = () => {
         // Store the token securely (e.g., in localStorage)
         localStorage.setItem('authToken', authToken);
         console.log(authToken);
-
+        navigate('/');
         // Update authenticated state in your application
         // (e.g., using a state management library like Redux or React Context)
       })
@@ -48,7 +73,7 @@ const Login = () => {
         // Handle authentication error
         console.error('Authentication error:', error);
       });
-  };
+  }};
   return (
     <div className="log-in">
       <div className="div-2">
@@ -66,13 +91,15 @@ const Login = () => {
             <div className="frame-4">
               <div className="frame-5">
                 <div className="text-wrapper-5">Email address</div>
-                <input type="email" placeholder="Enter your email address" value={username} onChange={handleUsernameChange} className="input-field" />
-
+                <span style={{ color: 'red' }}>{emailError}</span>
+                <input type="email" placeholder="Enter your email address" value={username} onChange={handleUsernameChange} className="input-field" style={{ borderColor: emailError ? 'red' : '' }} />
+                
               </div>
               <div className="frame-5">
                 <div className="text-wrapper-5">Password</div>
+                <span style={{ color: 'red' }}>{passwordError}</span>
                 <div className="password-input">
-                  <input type={showPassword ? "text" : "password"} placeholder="Enter password from your account" value={password} onChange={handlePasswordChange} className="input-field" />
+                  <input type={showPassword ? "text" : "password"} placeholder="Enter password from your account" value={password} onChange={handlePasswordChange} className="input-field" style={{ borderColor: passwordError ? 'red' : '' }} />
                   <span className="toggle-icon" onClick={togglePasswordVisibility}>
                     <img src={showPassword ? Eyeon : Eyeoff} alt="Toggle Password" />
                   </span>

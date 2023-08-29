@@ -18,15 +18,11 @@ nav{
 }
 
 .logo {
-  position: absolute;
 
-    
+    overflow:hidden;
       width: 80px; /* Adjust the width as needed */
- left: 40px;
- top: 5px;
+ left: 60px;
    
-        height: auto; /* This maintains the aspect ratio */
-        vertical-align: middle;
         margin-right: 100px; /* Add some spacing between the logo and text */
     }
   
