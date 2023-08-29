@@ -1,0 +1,62 @@
+.offer-ride-step-2-no-car-added-in-profile,
+.offer-ride-step-2-no-car-added-in-profile * {
+  box-sizing: border-box;
+}
+.offer-ride-step-2-no-car-added-in-profile {
+  background: #fffefe;
+  border-radius: 10px;
+  width: 780px;
+  height: 673px;
+  position: relative;
+  overflow: hidden;
+}
+.x {
+  position: absolute;
+  left: 698px;
+  top: 30px;
+  overflow: visible;
+}
+.select-on-map {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.mapsicle-map {
+  width: 780px;
+  height: 470px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.primary-button {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 60px;
+  bottom: 19px;
+}
+.button {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+}
+#mapcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

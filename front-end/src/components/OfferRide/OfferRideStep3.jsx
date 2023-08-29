@@ -27,20 +27,9 @@ const OfferRideStep3 = () => {
         </svg>
       </div>
       <div className="dropdown-container">
-        <select className="dropdown">
-          <option value="option1">Select on map</option>
-        </select>
-        <div className="arrow-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-          >
-            {/* SVG path data */}
-          </svg>
-        </div>
+   
+      <a href="/select-on-map" id='selct-on-map1'>select on map</a>
+  
       </div>
       <span id='drop-off-point'>
         Drop-off-point
@@ -58,23 +47,12 @@ const OfferRideStep3 = () => {
         >
           {/* SVG path data */}
         </svg>
+
       </div>
-      <div className="dropdown-container1">
-        <select className="dropdown1">
-          <option value="option1">Select on map</option>
-        </select>
-        <div className="arrow-icon1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-          >
-            {/* SVG path data */}
-          </svg>
-        </div>
-      </div>
+     
+        <a href="/select-on-map" id='selct-on-map'>select on map</a>
+       
+    
       <span id='deprature-data-and-time'>
         Departure date and time
       </span>

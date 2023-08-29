@@ -1,0 +1,22 @@
+/* Custom style for the modal overlay */
+.custom-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Custom style for the modal content */
+  .custom-modal {
+    background-color: white;
+    max-width: 400px; /* Limit the maximum width */
+    width: 100%; /* Ensure the content takes up the available width */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the close button */
+  .close-button {
+    margin-top: 10px;
+  }
+  

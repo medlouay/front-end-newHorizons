@@ -2,10 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
 import './index.css';
-import{OfferRide,Event,Navbar,Info,Header,Footer,Body,Login,Signup, 
-  SuccessPage, Failedpage, OfferRideStep1,OfferRideStep2,OfferRideStep3,Map} from "./components"
-import { BrowserRouter,createBrowserRouter, Link, Route, RouterProvider, Routes } from 'react-router-dom';
-import { element } from 'prop-types';
+import {
+  OfferRide,
+  Event,
+  Navbar,
+  Info,
+  Header,
+  Footer,
+  Body,
+  Login,
+  Signup,
+  SuccessPage,
+  Failedpage,
+  OfferRideStep1,
+  OfferRideStep2,
+  OfferRideStep3,
+  SelectMap,
+  MapModel,
+} from "./components";
+import { createBrowserRouter, RouterProvider, Routes, Route } from 'react-router-dom';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,10 +45,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/events",
-    element: <div>
-      <Navbar/>
-      <Event/>
-      </div> ,
+    element: (
+      <div>
+        <Navbar/>
+        <Event/>
+      </div>
+    ),
   },
   {
     path: "/offer-ride-step1",
@@ -48,7 +66,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/select-on-map",
-    element: <Map/>,
+    element: <SelectMap/>,
   },
 ]);
 
@@ -56,7 +74,10 @@ const root = document.getElementById('root');
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <Routes>
+        {router}
+      </Routes>
+    </RouterProvider>
   </React.StrictMode>
 );
-

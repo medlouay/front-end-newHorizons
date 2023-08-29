@@ -16,5 +16,6 @@ import OfferRideStep1 from "./OfferRide/OfferRideStep1";
 import OfferRide from "./OfferRide/OfferRide";
 import OfferRideStep2 from "./OfferRide/OfferRideStep2";
 import OfferRideStep3 from "./OfferRide/OfferRideStep3";
-import Map from "./map/Map";
-export {Header,Signup,Failedpage,SuccessPage,Step1,Step2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,Navbar,OfferRide,OfferRideStep1,OfferRideStep2,OfferRideStep3,Map}
+import SelectMap from "./Map/SelectMap";
+import MapModel from "./MapModel/MapModel";
+export {Header,Signup,Failedpage,SuccessPage,Step1,Step2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,Navbar,OfferRide,OfferRideStep1,OfferRideStep2,OfferRideStep3,SelectMap,MapModel}
