@@ -5,6 +5,7 @@ import { Eyeoff, Eyeon, facebook, google, apple } from "../../assets";
 import { renderMatches, useLocation, useNavigate } from 'react-router-dom';
 
 
+
 const Step1 = ({ nextStep, handleFormData, values }) => {
   
   const [emailuserError, setEmailError] = useState('');

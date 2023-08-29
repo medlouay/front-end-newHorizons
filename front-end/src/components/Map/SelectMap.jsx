@@ -1,12 +1,12 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom'; // Import useHistory hook
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import './SelectMap.css';
 
 const SelectMap = () => {
-  const history = useHistory(); // Get access to the history object
+  const navigate = useNavigate(); // Get access to the navigate function
 
   const handleOkClick = () => {
-    history.goBack(); // Go back to the previous page
+    navigate(-1); // Go back to the previous page using navigate function
   };
 
   return (
@@ -25,8 +25,9 @@ const SelectMap = () => {
 
         <div className="select-on-map">Select on map</div>
         <img className="mapsicle-map" src="src\assets\mapsicle-map.png" alt="Map" />
+        
         <div className="primary-button">
-          <button className="button" onClick={handleOkClick}>OK</button>
+          <button id="ok-button" onClick={handleOkClick}>OK</button>
         </div>
       </div>
     </div>

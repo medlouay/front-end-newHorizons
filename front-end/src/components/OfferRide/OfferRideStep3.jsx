@@ -83,6 +83,7 @@ const OfferRideStep3 = () => {
       </div>
       <div>
         <button id='nextbutton2'>
+            <a href=""></a>
           Next
         </button>
       </div>

@@ -33,18 +33,13 @@
   top: 120px;
 }
 .primary-button {
-  background: var(--foundation-green-normal, #5d9b96);
-  border-radius: 10px;
-  padding: 10px 75px 10px 75px;
-  display: flex;
-  flex-direction: row;
   gap: 10px;
   align-items: center;
   justify-content: center;
   width: 230px;
   height: 44px;
   position: absolute;
-  left: 60px;
+  left: 250px;
   bottom: 19px;
 }
 .button {
@@ -59,4 +54,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  #ok-button{
+    display: flex;
+    width: 230px;
+    height: 44px;
+    padding: 10px 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--foundation-green-normal, #5D9B96);
+    text-decoration: none;
+    font-family: now;
+    color: var(--foundation-orange-light, #FDF3EB);
+}
