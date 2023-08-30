@@ -60,7 +60,7 @@ const Step2 = ({ nextStep, handleFormData, values, prevStep }) => {
 
 
             try {
-                const response = await axios.post("http://127.0.0.1:8080/api/auth/register", values);
+                const response = await axios.post("http://127.0.0.1:3308/api/auth/register", values);
                 if (Response || response.status === 200)
 
                     isError = true;

@@ -1,9 +1,13 @@
 import React from 'react'
 import './OfferRideStep1.css'
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 const OfferRideStep1 = () => {
   return (
+<div>
 
+<Navbar/>
     <div id="container">
 <div className="overflow-hidden bg-[#fffefe] flex flex-row justify-between w-full items-center pt-8 px-12 rounded-lg">
   <div className="flex flex-col gap-2 w-2/3 h-[350px] items-start mt-5 mb-12">
@@ -56,7 +60,11 @@ const OfferRideStep1 = () => {
 
 
 
+</div>
 
+<div>
+  <Footer/>
+</div>
 
 </div>
 

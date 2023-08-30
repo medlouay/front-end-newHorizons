@@ -49,12 +49,16 @@ const router = createBrowserRouter([
       <div>
         <Navbar/>
         <Event/>
+        <Footer/>
       </div>
     ),
   },
   {
     path: "/offer-ride-step1",
-    element: <OfferRideStep1/>,
+    element: 
+    <div>
+    <OfferRideStep1/>
+  </div>
   },
   {
     path: "/offer-ride-step2",

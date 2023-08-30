@@ -9,7 +9,7 @@ const App = () => {
       <Header />
       <Info />
       <Body />
-      <Footer />
+      <Footer/>
       {isModalOpen && <SelectMap closeModal={() => setIsModalOpen(false)} />}
     </>
   );

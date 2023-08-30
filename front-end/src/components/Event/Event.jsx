@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Event.css";
+import Footer from '../Footer/Footer';
 import {calendar,info,arrowuproghtgreen,noridecar,mappin,users,usercheck,userplus,carline,clock,claritycarline,whiteclock } from "../../assets";
 
 const Event = () => {
@@ -193,7 +194,10 @@ const Event = () => {
           </div>
         </div>
       </div>
+      <div>
+      </div>
     </div>
+    
   )
 }
 
