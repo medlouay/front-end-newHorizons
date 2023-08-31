@@ -11,6 +11,8 @@ const Event = () => {
           <div className="overlap-group-event">
             <h1 className="events-for-you-event">EVENTS FOR YOU</h1>
             <div className="overlap-event">
+
+            <a href="event-details">
               <div className="div-event">
                 <p className="text-wrapper-event">ECOLOGY FORUM FOR CLIMATE CHANGE</p>
                 <div className="frame-2-event">
@@ -61,6 +63,9 @@ const Event = () => {
                   <div className="text-wrapper-5-event">Join ride</div>
                 </div>
               </div>
+              </a>
+
+
               <div className="frame-10-event">
                 <img className="img-event" alt="Calendar" src={calendar} />
                 <div className="text-wrapper-2-event">22.08.2023 at 14:00</div>

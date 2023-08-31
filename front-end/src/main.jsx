@@ -19,6 +19,7 @@ import {
   OfferRideStep3,
   SelectMap,
   MapModel,
+  EventDetails,
 } from "./components";
 import { createBrowserRouter, RouterProvider, Routes, Route } from 'react-router-dom';
 
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
   {
     path: "/select-on-map",
     element: <SelectMap/>,
+  },
+  {
+    path: "/event-details",
+    element: <EventDetails/>,
   },
 ]);
 

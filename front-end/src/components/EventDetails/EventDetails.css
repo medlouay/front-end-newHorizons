@@ -1,0 +1,334 @@
+
+
+#homeeventslink{
+    color: var(--foundation-green-dark, #467471);
+font-family: Now;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+text-decoration-line: underline;
+position: absolute;
+left: 170px;
+top: 170px;
+color: #467471;
+}
+
+#aboutevnttitle{
+    color: var(--foundation-grey-dark, #2D3536);
+  font: 500 20px/130% "Now", sans-serif;
+
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 26px */
+text-transform: uppercase;
+width: 517px;
+position: absolute;
+left: 130px;
+top: 329px;
+}
+
+#ecologyformtitle{
+    position: absolute;
+    top: 238px;
+    left: 129px;
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 32px */
+text-transform: uppercase;
+
+
+}
+
+#abouteventparagraph{
+    width: 600px;
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+position: absolute;
+top: 375px;
+left: 130px;
+}
+#when-and-where-title{
+font-style: normal;
+line-height: 130%; /* 26px */
+text-transform: uppercase;
+position: absolute;
+top: 329px;
+left: 830px;
+color: var(--foundation-grey-dark, #2d3536);
+text-align: left;
+font: 500 20px/130% "Now", sans-serif;
+font-weight: bold;
+}
+#when-and-where-container{
+    position: absolute;
+    top: 375px;
+    left: 830px;
+    width: 480px;
+    height: 151px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px #f2e8e0;
+    
+    
+
+  }
+
+  #date-and-time{
+
+    position: absolute;
+    top: 406.5px;
+    left: 894px;
+    
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+  }
+  #location{
+
+    position: absolute;
+
+    top: 450.5px;
+    left: 889px;
+
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Now;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+  }
+  #date-and-time-icon{
+    
+    position: absolute;
+    top: 405px;
+    left: 860px;
+    right: 556px;;
+
+    width: 24px;
+height: 24px;
+  }
+  #location-icon{
+    position: absolute;
+    top: 449px;
+    left: 860px;
+    width: 24px;
+height: 24px;
+  }
+  #viw-on-map-link{
+    color: var(--foundation-green-dark, #467471) !important;
+font-family: Now;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+text-decoration-line: underline;
+position: absolute;
+top:  478px;
+left: 890px;
+  }
+
+  #agenda-titlee{
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 26px */
+text-transform: uppercase;
+
+
+position: absolute;
+top: 597px;
+left: 130px;
+  }
+  #agenda-content{
+    position: absolute;
+    top: 643px;
+    left: 130px;
+
+  }
+  #conatcat-event-oraganizer-title{
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 26px */
+text-transform: uppercase;
+position: absolute;
+top: 597px;
+left: 830px;
+
+  }
+  #contact-event-organizer-link{
+    color: var(--foundation-green-dark, #467471);
+font-family: Now;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+text-decoration-line: underline;
+    position: absolute;
+    top: 643px;
+    left: 830px;
+  }
+  #contact-event-organizer-icons-linkedin{
+    width: 24px;
+height: 24px;
+position: absolute;
+left: 830px;
+top: 681px;
+  }
+  #contact-event-organizer-icons-email{
+    width: 24px;
+    height: 24px;
+position: absolute;
+left: 874px;
+top: 681px;
+  }
+  #contact-event-organizer-icons-facebook{
+    width: 24px;
+    height: 24px;
+position: absolute;
+left: 918px;
+top: 681px;
+  }
+  #contact-event-organizer-icons-instagram{
+    width: 24px;
+    height: 24px;
+position: absolute;
+left: 962px;
+top: 681px;
+  }
+  .offer-ride-button{
+    border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+background: var(--foundation-green-normal, #5D9B96);
+    position: absolute;
+    top: 1011px;
+    left: 130px;
+    display: flex;
+width: 230px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  }
+#offer-ride-button-txt{
+    color: var(--foundation-orange-light, #FDF3EB);
+
+}
+  
+.join-waitlist-button{
+
+    position: absolute;
+    top: 1011px;
+    left: 400px;
+    display: flex;
+    width: 230px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+#join-waitlist-button-txt{
+    color: var(--foundation-grey-dark, #2D3536);
+}
+
+#offer-rides-title{
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 130%; /* 26px */
+text-transform: uppercase;
+position: absolute;
+top: 1136px;
+left: 130px;
+}
+
+#rides-to-the-event-link{
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 20.8px */
+position: absolute;
+top: 1215px;
+left: 130px;
+border-bottom: 1px solid #ED8A37;
+
+
+}
+#rides-from-the-event-link{
+    color: var(--foundation-grey-dark, #2D3536);
+font-family: Now;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 20.8px */
+position: absolute;
+top: 1215px;
+left: 313px;
+
+
+}
+
+#id100
+{
+  position: 
+  absolute;
+  left: 130px;
+  top: 1312px;
+}
+#footer{
+  position: absolute;
+  top: 2284px;
+}
+
+.frame-97,
+.frame-97 * {
+  box-sizing: border-box;
+
+}
+.frame-97 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  right: 140px;
+  top: 2140px;
+  
+  
+}
+.load-more {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+}

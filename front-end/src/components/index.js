@@ -18,4 +18,33 @@ import OfferRideStep2 from "./OfferRide/OfferRideStep2";
 import OfferRideStep3 from "./OfferRide/OfferRideStep3";
 import SelectMap from "./Map/SelectMap";
 import MapModel from "./MapModel/MapModel";
-export {Header,Signup,Failedpage,SuccessPage,Step1,Step2,Login,Footer,Info,Event,Body,Discount,UpCommingRide,Navbar,OfferRide,OfferRideStep1,OfferRideStep2,OfferRideStep3,SelectMap,MapModel}
+import EventDetails from "./EventDetails/EventDetails";
+import Agenda from "./Agenda/Agenda";
+import OfferedRides from "./OfferedRides/OfferedRides";
+export 
+{Header,
+    Signup,
+    Failedpage,
+    SuccessPage,
+    Step1,
+    Step2,
+    Login,
+    Footer,
+    Info,
+    Event,
+    Body,
+    Discount,
+    UpCommingRide,
+    Navbar,
+    OfferRide,
+    OfferRideStep1,
+    OfferRideStep2,
+    OfferRideStep3,
+    SelectMap,
+    MapModel,
+    EventDetails,
+    Agenda,
+    OfferedRides
+}
+    
+    
