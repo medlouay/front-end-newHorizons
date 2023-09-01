@@ -2,23 +2,24 @@ import React from 'react';
 import "./Navbar.css";
 import {search,profile ,chevrondown,logo1} from "../../assets";
 import navbarLogo from '../../assets/logo1.png'; // Use a unique name like navbarLogo
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
   return (
     <nav>
-      <a href="/" className="logo">
+      <Link to="/" className="logo">
       <img src={navbarLogo} alt="New Horizons Logo" />
-    </a>
+     </Link>
       <ul className="main-list">
         <li>
-          <a href="events">events</a>
+          <Link to="/events">events</Link>
         </li>
         <li>
-          <a href="#">rides</a>
+          <Link to="#">rides</Link>
         </li>
         <li>
-          <a href="about-us">about us</a>
+          <Link to="/about-us">about us</Link>
         </li>
       </ul>
       <ul className="secondary-list">
@@ -27,10 +28,10 @@ const Navbar = () => {
           <input type="text" placeholder="Search ..." className="search-bar" />
         </li>
         <li>
-          <a href="/login" className="login-btn"> Log in </a>
+        <Link to="/login" className="login-btn"> Log in </Link>
         </li>
         <li>
-          <a href="/signup" className="signup-btn">Sign up </a>
+          <Link to="/signup" className="signup-btn">Sign up </Link>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,47 @@
+[
+  {
+    "id_event": 1,
+    "name_event": "ECOLOGY FORUM FOR CLIMATE CHANGE",
+    "date_event": "22.08.2023 at 14:00",
+    "place_event": "Berlin, Germany",
+    "ridesOffered": 4,
+    "seatsAvailible": 3,
+    "passangers": 5,
+    "waiting": 3,
+    "interests": ["solar energy", "ecology", "wildlife protection"]
+  },
+  {
+    "id_event": 2,
+    "name_event": "ENVIRONMENT PROTECTION PROBLEMS",
+    "date_event": "22.08.2023 at 18:00",
+    "place_event": "Rome, Italy",
+    "ridesOffered": 0,
+    "seatsAvailible": 3,
+    "passangers": 0,
+    "waiting": 0,
+    "interests": []
+  },
+  {
+    "id_event": 3,
+    "name_event": "ZERO WASTE: PHILOSOPHY OR WAY OF LIVING",
+    "date_event": "14.08.2023 at 09:00",
+    "place_event": "Dresden, Germany",
+    "ridesOffered": 1,
+    "seatsAvailible": 3,
+    "passangers": 0,
+    "waiting": 0,
+    "interests": ["zero waste", "minimalism", "environment"]
+  },
+
+  {
+    "id_event": 4,
+    "name_event": "GLOBAL WARMING: IS IT TOO LATE TO ACT?",
+    "date_event": "01.08.2023 at 18:00",
+    "place_event": "Amsterdam, the Netherlands",
+    "ridesOffered": 0,
+    "seatsAvailible": 0,
+    "passangers": 0,
+    "waiting": 3,
+    "interests": ["global", "warming", "ecology", "nature"]
+  }
+]

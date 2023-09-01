@@ -24,6 +24,8 @@ import OfferedRides from "./OfferedRides/OfferedRides";
 import Profile from "./Profile/Profile";
 import { RideDetails } from "./RideDetails/RideDetails";
 import AboutUs from "./AboutUs/AboutUs";
+import Events from "./Events/Events";
+
 export 
 {Header,
     Signup,
@@ -50,7 +52,8 @@ export
     OfferedRides,
     Profile,
     RideDetails,
-    AboutUs
+    AboutUs,
+    Events
 }
     
     
