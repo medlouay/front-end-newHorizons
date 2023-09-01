@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#">rides</a>
         </li>
         <li>
-          <a href="#">about us</a>
+          <a href="about-us">about us</a>
         </li>
       </ul>
       <ul className="secondary-list">

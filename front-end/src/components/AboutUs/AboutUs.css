@@ -1,0 +1,29 @@
+.aboutus-container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    font: var(--p-3, 400 14px/130% "Now", sans-serif); /* Apply the font */
+  }
+  
+  .header {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font: var(--p-3, 400 14px/130% "Now", sans-serif); /* Apply the font */
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    font: var(--p-3, 400 14px/130% "Now", sans-serif); /* Apply the font */
+  }
+  

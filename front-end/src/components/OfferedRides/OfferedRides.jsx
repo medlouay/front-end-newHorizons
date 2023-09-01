@@ -74,6 +74,7 @@ const OfferedRides = () => {
         <div className="_15-eur">15 EUR</div>
       </div>
     </div>
+<a href="ride-details">
     <div className="frame-50">
       <div className="frame-59">
         <div className="frame-57">
@@ -184,6 +185,10 @@ const OfferedRides = () => {
         </div>
       </div>
     </div>
+    </a>
+
+
+
 </div11>
 <div id='12'>
 <div className="frame-66">

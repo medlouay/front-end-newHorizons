@@ -14,12 +14,13 @@ const Footer = () => {
           <div className="text-wrapper-footer"><a href="/events">EVENTS</a></div>
           <div className="text-wrapper-footer"><a href="#">RIDES</a></div>
           <div className="about-us-wrapper-footer">
-            <div className="text-wrapper-footer"><a href="#">ABOUT US</a></div>
+            <div className="text-wrapper-footer"><a href="about-us">ABOUT US</a></div>
           </div>
         </div>
 
         <div className="new-horizons-footer">
-          <span className="span-footer">New Horizons</span>
+          <a href="/">
+          <span className="span-footer">New Horizons</span></a>
           <span className="text-wrapper-2-footer">, 2023 ©</span>
         </div>
       </div>

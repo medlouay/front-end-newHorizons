@@ -20,7 +20,9 @@ import {
   SelectMap,
   MapModel,
   EventDetails,
-  Profile
+  Profile,
+  RideDetails,
+  AboutUs
 } from "./components";
 import { createBrowserRouter, RouterProvider, Routes, Route } from 'react-router-dom';
 
@@ -82,6 +84,15 @@ const router = createBrowserRouter([
     path: "/profile",
     element: <Profile/>,
   },
+  {
+    path: "/ride-details",
+    element: <RideDetails/>,
+  },
+  {
+    path: "/about-us",
+    element: <AboutUs/>,
+  },
+  
 ]);
 
 const root = document.getElementById('root');

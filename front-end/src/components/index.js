@@ -22,6 +22,8 @@ import EventDetails from "./EventDetails/EventDetails";
 import Agenda from "./Agenda/Agenda";
 import OfferedRides from "./OfferedRides/OfferedRides";
 import Profile from "./Profile/Profile";
+import { RideDetails } from "./RideDetails/RideDetails";
+import AboutUs from "./AboutUs/AboutUs";
 export 
 {Header,
     Signup,
@@ -46,7 +48,9 @@ export
     EventDetails,
     Agenda,
     OfferedRides,
-    Profile
+    Profile,
+    RideDetails,
+    AboutUs
 }
     
     

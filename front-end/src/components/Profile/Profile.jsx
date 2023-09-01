@@ -217,7 +217,7 @@ const Profile = () => {
 
         <div className="berlin-germany">Berlin, Germany </div>
       </div>
-      <div className="oliver-bern">Oliver Bern </div>
+      <div className="oliver-bern1">Oliver Bern </div>
       <div className="ride-card">
         <div className="event-info">
           <div className="icon-with-text2">

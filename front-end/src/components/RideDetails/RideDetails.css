@@ -1,0 +1,934 @@
+.ride-details,
+.ride-details * {
+  box-sizing: border-box;
+}
+.ride-details {
+  width: 1440px;
+  height: 1571px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-42 {
+  opacity: 0.3499999940395355;
+  position: absolute;
+  left: 1229.29px;
+  top: 244px;
+  transform: translate(-1229.29px, 325.72px);
+  overflow: visible;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 154px);
+  top: 49px;
+}
+.events {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.rides {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-48 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1241px;
+  top: 40px;
+}
+.ellipse-3 {
+  background: linear-gradient(to left, #ed8a37, #ed8a37);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.chevron-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.search {
+  position: absolute;
+  left: 1177px;
+  top: 48px;
+  overflow: visible;
+}
+.union {
+  position: absolute;
+  left: 129px;
+  top: 40px;
+  overflow: visible;
+}
+.frame-93-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 170px;
+}
+.home {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+
+
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.event-details {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.ride-details2 {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.frame-66-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 130px;
+  top: 200px;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.users {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._1-seat-available {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.clarity-car-line {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.mazda-cx-5-2020 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-64 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-hand-coins {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._15-eur {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 274px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._22-08-2023-09-00 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.map-pin {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.schlo-stra-e-2-01067-dresden-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.line-3 {
+  position: absolute;
+  left: 233px;
+  top: 304px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 368px;
+}
+._22-08-2023-11-10 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+  width: 81px;
+}
+.map-pin2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.klingelh-ferstra-e-23-10785-berlin-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-aenean-nulla-gravida-vestibulum-at-dictum-ultricies {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 591px;
+}
+.people-s-interests-in-the-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: absolute;
+  left: 131px;
+  top: 884px;
+}
+.host-s-comment {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 560px;
+}
+.frame-32 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1175px;
+  position: absolute;
+  left: 131px;
+  top: 923px;
+}
+.frame-31 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.solar-energy {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-29 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ecology {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-30 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-322 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.environment {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-33 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.wildlife-protection {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-34 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.global-warming {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-35 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.wind-energy {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-36 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.wildlife {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-41 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.animals {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-38 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.forests {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-39 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.marine-conservation {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-40 {
+  background: var(--foundation-green-light, #eff5f5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.air-polution {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-332 {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 419px;
+  top: 1151px;
+}
+.user-plus {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.join-ride {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+  
+}
+.frame-65 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 718px;
+}
+.frame-60 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-4 {
+  background: linear-gradient(to left, #ed8a37, #ed8a37);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.host {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.oliver-bern {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-61 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-42 {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.passenger {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.kira-schneider {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-62 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ben-petterson {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-63 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.seat-for-you {
+  color: var(--foundation-orange-normal, #ed8a37);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-342 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  position: absolute;
+  left: 129px;
+  top: 1151px;
+}
+.message-circle {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.message-a-host {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-69 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 129px;
+    top: 1067px;
+  }
+.info {
+  flex-shrink: 0;
+  overflow: visible;
+  position: absolute;
+  left: 130px;
+  top: 1075px;
+
+}
+.frame-70-1{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+.this-host-also-offers-a-ride-back {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  position: relative;
+}
+.see-ride-details {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.frame-97-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 442px;
+}
+.info2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._5-km-away-from-the-venue {
+  color: var(--foundation-grey-dark, #2d3536);
+  font: 400 14px/130% "Now", sans-serif;
+  position: absolute;
+  width: 179px;
+  top: 5px;
+  left: 40px;
+  
+}
+.frame-94 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 414px;
+}
+.view-on-map {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: 400 14px/130% "Now", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.chevron-left {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -16px);
+  overflow: visible;
+}
+.frame-932 {
+  width: 1440px;
+  height: 191px;
+  position: absolute;
+  left: 0px;
+  top: 1380px;
+  overflow: hidden;
+}
+.frame-472 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 76px;
+}
+.union2 {
+  position: absolute;
+  left: 130px;
+  top: 67px;
+  overflow: visible;
+}
+.event-details2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 830px;
+  top: 228px;
+}
+.meet-your-companions {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 672px;
+}
+.ride-details3 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 20px/130% "Now", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 150px;
+}
+.frame-96 {
+  background: #fffefe;
+  border-radius: 10px;
+  width: 480px;
+  height: 151px;
+  position: absolute;
+  left: 830px;
+  top: 274px;
+  box-shadow: 0px 4px 8px 0px rgba(242, 232, 224, 1);
+  overflow: hidden;
+}
+.frame-75 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.frame-482 {
+  border-radius: 10px;
+  padding: 0px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.calendar {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._22-08-2023-at-14-00 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-74 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-73 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.map-pin3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-72 {
+  padding: 0px 0px 0px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron-left2 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -16px);
+  overflow: visible;
+}
+.info-1 {
+    flex-shrink: 0;
+    overflow: visible;
+    position: absolute;
+    left: 130px;
+    top: 442px;
+  
+  }
+
