@@ -15,9 +15,10 @@ nav {
 .logo {
   overflow: hidden;
   width: 80px;
-  margin-left: 20px;
+  /* margin-left: 20px; Remove the margin to keep the logo within the navbar */
+  display: flex; /* Added to align the logo vertically */
+  align-items: center; /* Added to align the logo vertically */
 }
-
 nav ul {
   list-style: none;
   padding: 0;

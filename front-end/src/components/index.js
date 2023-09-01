@@ -21,6 +21,7 @@ import MapModel from "./MapModel/MapModel";
 import EventDetails from "./EventDetails/EventDetails";
 import Agenda from "./Agenda/Agenda";
 import OfferedRides from "./OfferedRides/OfferedRides";
+import Profile from "./Profile/Profile";
 export 
 {Header,
     Signup,
@@ -44,7 +45,8 @@ export
     MapModel,
     EventDetails,
     Agenda,
-    OfferedRides
+    OfferedRides,
+    Profile
 }
     
     

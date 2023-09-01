@@ -74,7 +74,9 @@
 
 .frame-footer .text-wrapper-2-footer {
   font-family: now;
+  text-align: right; /* Add this line to align the text to the right */
 }
+
 #logo-footer {
 max-width: 150px;
 }

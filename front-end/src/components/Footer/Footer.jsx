@@ -6,10 +6,12 @@ const Footer = () => {
   return (
     <div className="frame-footer">
       <div className="overlap-group-footer">
+        <a href="/">
         <img id="logo-footer" src={navbarLogo} />
+        </a>
         
         <div className="div-footer">
-          <div className="text-wrapper-footer"><a href="#">EVENTS</a></div>
+          <div className="text-wrapper-footer"><a href="/events">EVENTS</a></div>
           <div className="text-wrapper-footer"><a href="#">RIDES</a></div>
           <div className="about-us-wrapper-footer">
             <div className="text-wrapper-footer"><a href="#">ABOUT US</a></div>

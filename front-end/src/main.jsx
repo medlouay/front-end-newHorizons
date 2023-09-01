@@ -20,6 +20,7 @@ import {
   SelectMap,
   MapModel,
   EventDetails,
+  Profile
 } from "./components";
 import { createBrowserRouter, RouterProvider, Routes, Route } from 'react-router-dom';
 
@@ -76,6 +77,10 @@ const router = createBrowserRouter([
   {
     path: "/event-details",
     element: <EventDetails/>,
+  },
+  {
+    path: "/profile",
+    element: <Profile/>,
   },
 ]);
 

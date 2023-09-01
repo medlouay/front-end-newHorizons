@@ -1,0 +1,669 @@
+
+.profile-how-other-users-see-it {
+  width: 1440px;
+  height: 1535px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-42 {
+  opacity: 0.3499999940395355;
+  position: absolute;
+  left: 1229.29px;
+  top: 244px;
+  transform: translate(-1229.29px, 325.72px);
+  overflow: visible;
+}
+.frame-68 {
+  width: 1440px;
+  height: 286px;
+  position: absolute;
+  left: 0px;
+  top: 1249px;
+  overflow: hidden;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 133px;
+}
+.events {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.rides {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+
+.new-horizons-app-icon-1 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.new-horizons {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 14px/100% "Black Bones", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-931 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 190px;
+}
+.profile {
+  color: var(--foundation-green-dark, #467471);
+  text-align: left;
+  font: var(--link, 400 16px/130% "Now", sans-serif);
+  text-decoration: underline;
+  position: relative;
+}
+.about {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 491px;
+}
+.interests {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 644px;
+}
+.rides-history {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 826px;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--foundation-orange-normal, #ed8a37);
+  border-width: 1px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 130px;
+  top: 250px;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-interdum-lectus-etiam-non-magna-dui-in-viverra-nisl-phasellus-volutpat-scelerisque-turpis-tortor-pulvinar-nunc-mi-ut-sagittis-velit-scelerisque-vulputate-tincidunt-eleifend-purus-ante-vitae-vel-venenatis-sed-massa-nisi-viverra-lobortis-amet-interdum-id {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 400 16px/140% "Now", sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 521px;
+  width: 780px;
+}
+.frame-120 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1180px;
+  position: absolute;
+  left: 130px;
+  top: 674px;
+}
+.label {
+  background: var(--foundation-green-light-hover, #e7f0ef);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.label-text {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--p-2, 400 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.primary-button {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 350px;
+  top: 384px;
+}
+.icons {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.header {
+  background: #fff9f4;
+  width: 1440px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 262px);
+  top: 72px;
+}
+
+.frame-171 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1113px;
+  top: 63px;
+}
+.icons2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.avatar-with-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.ellipse-32 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--foundation-orange-normal, #ed8a37);
+  border-width: 1px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.icons4 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+.search-in-header {
+  width: 230px;
+  height: 24px;
+  position: absolute;
+  left: 853px;
+  top: 71px;
+}
+.icons5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.search {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-2, 400 16px/130% "Now", sans-serif);
+  position: absolute;
+  left: 34px;
+  top: 1.5px;
+  width: 196px;
+}
+.frame-79 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 350px;
+  top: 330px;
+}
+.icons6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon-with-text {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 350px;
+  top: 292px;
+}
+.icons10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.berlin-germany {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+}
+.oliver-bern {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-2, 700 32px/100% "Caudex", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 350px;
+  top: 250px;
+  width: 400px;
+  
+}
+.ride-card {
+  width: 580px;
+  height: 228px;
+  position: absolute;
+  left: 130px;
+  top: 921px;
+}
+.event-info {
+  background: var(--foundation-orange-light-active, #f9dbc1);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 580px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+.icon-with-text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icons11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.ecology-forum-for-climate-change-and-sol {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.group-12 {
+  position: absolute;
+  inset: 0;
+}
+.frame-50 {
+  background: #fffefe;
+  border-radius: 0px 0px 10px 10px;
+  width: 580px;
+  height: 187px;
+  position: absolute;
+  left: 0px;
+  top: 41px;
+  box-shadow: 0px 4px 8px 0px rgba(242, 232, 224, 1);
+  overflow: hidden;
+}
+.avatar-and-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.avatar2 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.ellipse-33 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--foundation-orange-normal, #ed8a37);
+  border-width: 1px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.host {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.name-surname {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: center;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.route-small {
+  width: 435px;
+  height: 130px;
+  position: absolute;
+  left: 125px;
+  top: 20px;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 425px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._22-08-2023-09-00 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  width: 81px;
+}
+.icons12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.line-4 {
+  position: absolute;
+  left: 99px;
+  top: 22px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 435px;
+  position: absolute;
+  left: 0px;
+  top: 94px;
+}
+.frame-562 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 435px;
+  position: relative;
+}
+._22-08-2023-11-10 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  width: 81px;
+}
+.icon-with-text3 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.icons13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.berlin-germany2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.icon-with-text4 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 344px;
+  position: absolute;
+  left: 91px;
+  top: 31px;
+}
+.icons14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.berlin-germany3 {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.icon-with-text5 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 344px;
+  position: absolute;
+  left: 91px;
+  top: 62px;
+}
+.icons15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-88 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 130px;
+  top: 876px;
+  overflow: hidden;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ride-to-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.rectangle-48 {
+  background: var(--foundation-orange-normal, #ed8a37);
+  border-radius: 100px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2px;
+  position: relative;
+}
+.ride-card2 {
+  width: 580px;
+  height: 228px;
+  position: absolute;
+  left: 730px;
+  top: 917px;
+}
+.icons16 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.line-42 {
+  position: absolute;
+  left: 99px;
+  top: 22px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.icons18 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons19 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons20 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
