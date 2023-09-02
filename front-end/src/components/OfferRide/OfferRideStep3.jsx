@@ -1,8 +1,12 @@
 import React from 'react';
 import './OfferRideStep3.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const OfferRideStep3 = () => {
   return (
+    <div>
+      <Navbar/>
     <div id="container3">
       <div id='title'>
         <span>Offer Ride</span>
@@ -76,17 +80,18 @@ const OfferRideStep3 = () => {
       </div>
       <div>
         <button id='backbutton2'>
-            <a href="offer-ride-step2">
-          Back
-          </a>
+            <a href="offer-ride-step2">Back</a>
         </button>
       </div>
       <div>
+
         <button id='nextbutton2'>
-            <a href=""></a>
-          Next
+            <a href="offer-ride-step4"> Next</a>
         </button>
+
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }

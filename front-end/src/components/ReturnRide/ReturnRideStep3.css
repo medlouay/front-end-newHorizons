@@ -1,0 +1,326 @@
+.offer-ride-return-ride-step-3,
+.offer-ride-return-ride-step-3 * {
+  box-sizing: border-box;
+}
+.offer-ride-return-ride-step-3 {
+    background: #fffefe;
+    border-radius: 10px;
+    width: 1000px;
+    height: 742px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* This centers it horizontally within its parent container */
+    margin-bottom: 50px ;
+  }
+  
+.icons {
+  position: absolute;
+  left: 908px;
+  top: 50px;
+  overflow: visible;
+}
+.offer-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+.step-3-of-4 {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 110px;
+}
+.frame-125 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 226px;
+}
+.frame-102 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pick-up-point {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.search-field {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 480px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-106 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 441px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+.placeholder {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+}
+.icons2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-72 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.select-on-map {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: var(--linksmall, 400 14px/130% "Now", sans-serif);
+  text-decoration: underline;
+  position: relative;
+}
+.icons3 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -16px);
+  overflow: visible;
+}
+.frame-126 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 449px;
+}
+.frame-105 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.drop-off-point {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.icons4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons5 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, -16px);
+  overflow: visible;
+}
+.primary-button {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 360px;
+  top: 639px;
+}
+.button {
+  color: var(--foundation-orange-light, #fdf3eb);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.secondary-button-without-icon {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 2px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 60px;
+  top: 638px;
+}
+.button2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: 500 16px/130% "Now", sans-serif;
+  position: relative;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 385px;
+}
+.icons6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.add-a-stop {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: var(--link, 400 16px/130% "Now", sans-serif);
+  text-decoration: underline;
+  position: relative;
+}
+.frame-115 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 560px;
+  top: 226px;
+}
+.departure-date-and-time {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.date-and-time-picker {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 380px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-107 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 341px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+.select-date-and-time {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+}
+.icons7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-158 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 560px;
+  top: 449px;
+}
+.arrival-estimated-date-and-time {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.icons8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-124 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 171px;
+  overflow: hidden;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ride-to-the-event {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: relative;
+}
+.rectangle-48 {
+  background: var(--foundation-orange-normal, #ed8a37);
+  border-radius: 100px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2px;
+  position: relative;
+}

@@ -1,0 +1,135 @@
+.offer-ride-to-the-event-or-from-the-event-step-1,
+.offer-ride-to-the-event-or-from-the-event-step-1 * {
+  box-sizing: border-box;
+}
+.offer-ride-to-the-event-or-from-the-event-step-1 {
+    background: #fffefe;
+    border-radius: 10px;
+    width: 1000px;
+    height: 503px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; /* Add this line to center the element horizontally */
+    margin-bottom: 20px;
+  }
+  
+.offer-ride {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--h-3, 500 20px/100% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.primary-buttonn {
+  background: var(--foundation-green-normal, #5d9b96);
+  border-radius: 10px;
+  padding: 10px 75px 10px 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 44px;
+  position: absolute;
+  left: 50px;
+  top: 360px;
+}
+
+.step-2-of-4 {
+  color: var(--foundation-green-normal, #5d9b96);
+  text-align: left;
+  font: var(--menuitem, 400 16px/130% "Now", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 52px;
+  top: 116px;
+}
+.icons {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  overflow: visible;
+}
+.select-field-with-search {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--foundation-green-normal, #5d9b96);
+  border-width: 1px;
+  width: 380px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+  top: 198px;
+  overflow: hidden;
+}
+.frame-117 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+  position: absolute;
+  left: calc(50% - 170px);
+  top: calc(50% - 9px);
+}
+.enter-vin-of-your-car {
+  color: var(--foundation-grey-light-active, #c3c6c6);
+  text-align: left;
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+  position: relative;
+}
+.frame-69 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 510px;
+  position: absolute;
+  left: 50px;
+  top: 288px;
+}
+.icons2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-70 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more {
+  text-align: left;
+  font: var(--undefined, 400 14px/130% "Now", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span {
+  color: var(--foundation-grey-dark, #2d3536);
+  font: var(--p-3, 400 14px/130% "Now", sans-serif);
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span2 {
+  color: var(--foundation-grey-dark, #2d3536);
+  font: 400 14px/130% "Now", sans-serif;
+}
+.drivers-who-enter-their-cars-make-and-model-number-to-allow-carbon-calculation-enter-our-corporate-rewards-program-to-receive-discounts-on-hotels-and-events-learn-more-span3 {
+  color: var(--foundation-green-normal, #5d9b96);
+  font: var(--linksmall, 400 14px/130% "Now", sans-serif);
+  text-decoration: underline;
+}
+.enter-vin {
+  color: var(--foundation-grey-dark, #2d3536);
+  text-align: left;
+  font: var(--labeltext, 500 16px/130% "Now", sans-serif);
+  position: absolute;
+  left: 50px;
+  top: 167px;
+}

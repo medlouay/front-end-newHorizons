@@ -1,9 +1,10 @@
+/* OfferRideStep1.css */
 
 #container {
   position: relative;
-  width: 650px;
-  height: 470px;
-  margin: 50px auto 50px; /* Add margin at the bottom */
+  width: 1000px;
+  height: 503px;
+  margin: 50px auto 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,131 +13,145 @@
   background: #ffffff;
   box-shadow: 0px 4px 8px 0px #f2e8e0;
 }
-  
-  /* Child element with fixed position */
-  #offer-ride-title {
-    color: var(--foundation-grey-dark, #2d3536);
-    font-family: Consolas;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 130%;
-    text-transform: uppercase;
-    position: absolute;
-    left: 50px;
-    top: 50px;
-  }
-  
-  #step1 {
-    color: var(--foundation-green-normal, #5D9B96);
-    font-family: Consolas;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 130%;
-    text-transform: uppercase;
-    position: absolute;
-    left: 50px;
-    top: 116px;
-  }
-  
-  #select-event {
-    color: var(--foundation-grey-dark, #2d3536);
-    font-family: Consolas;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 130%;
-    position: absolute;
-    left: 50px;
-    top: 177px;
-  }
-  
-  #searchbar {
-    position: absolute;
-    left: 50px;
-    top: 208px;
-    display: flex;
-    width: 380px;
-    padding: 18px 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 15px;
-    border: 1px solid var(--foundation-green-normal, #5D9B96);
-  }
-  
-  #searchInput {
-    outline: none;
-    border: none;
-    width: 100%;
-    padding: 0 10px;
-    font-size: 15px;
-  }
-  
-  #searchInput::placeholder {
-    color: var(--foundation-grey-light, #C3C6C6); /* Fix placeholder color */
-  }
-  
-  input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 18px;
-    height: 18px;
-    border: 2px solid #5D9B96;
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    margin-right: 8px;
-  }
-  
-  input[type="radio"]:checked {
-    background-color: #5D9B96;
-  }
-  
-  #picker {
-    color: var(--foundation-grey-dark, #2d3536);
-    font-family: Consolas;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%;
-    position: absolute;
-    left: 50px;
-    top: 298px;
-  }
-  
-  #nxt-button {
-    color: #C3C6C6;
-    font-family: Consolas;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%;
-    position: absolute;
-    left: 50px;
-    top: 359px;
-    display: flex;
-    width: 230px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--foundation-green-normal, #5D9B96);
-    background: var(--foundation-green-normal, #5D9B96);
-  }
 
-  #next-link {
-    color: black; /* You can use any color you prefer */
-    text-decoration: none; /* Remove underline if desired */
-  }
-  
- 
- #next-link:hover {
-    color:white; /* You can use any color you prefer */
-  }
-  a{
-    color: black;
-  }
+#offer-ride-title {
+  color: #2d3536;
+  font-family: Consolas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#step1 {
+  color: #5D9B96;
+  font-family: Consolas;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 116px;
+}
+
+#select-event {
+  color: #2d3536;
+  font-family: Consolas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  position: absolute;
+  left: 50px;
+  top: 177px;
+}
+
+#searchbar {
+  position: absolute;
+  left: 50px;
+  top: 208px;
+  display: flex;
+  width: 380px;
+  padding: 18px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #5D9B96;
+}
+
+#searchInput {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+#searchInput::placeholder {
+  color: #C3C6C6;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #5D9B96;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px; /* Add spacing between the radio button and label text */
+}
+
+input[type="radio"]:checked {
+  background-color: #5D9B96;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px; /* Add spacing between options */
+}
+
+#picker {
+  color: #2d3536;
+  font-family: Consolas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  position: absolute;
+  right: 600px;
+  top: 298px;
+}
+
+#picker-option2 {
+  width: 170px;
+  color: #2d3536;
+  font-family: Consolas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  position: absolute;
+  top: 298px;
+  left: 50px;
+}
+
+#nxt-button {
+  color: #C3C6C6;
+  font-family: Consolas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  position: absolute;
+  left: 50px;
+  top: 359px;
+  display: flex;
+  width: 230px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #5D9B96;
+  background: #5D9B96;
+  text-decoration: none; /* Added text-decoration here */
+}
+
+#nxt-button:hover {
+  color: white;
+}
+
+a {
+  color: black;
+}
