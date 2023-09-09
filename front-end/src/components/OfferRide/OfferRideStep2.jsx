@@ -4,10 +4,18 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 const OfferRideStep2 = () => {
-  const [arrivalLocation, setArrivalLocation] = useState('');
+  const [inputs, setInputs] = useState({
+    arrivalLocation: '',
+    dropOffLocation: '',
+    departureDateTime: '',
+  });
 
-  const handleArrivalLocationChange = (e) => {
-    setArrivalLocation(e.target.value);
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setInputs((prevInputs) => ({
+      ...prevInputs,
+      [name]: value,
+    }));
   };
 
   return (
@@ -16,7 +24,6 @@ const OfferRideStep2 = () => {
       <div id="container3">
         <div id='title'>
           <span>Offer Ride</span>
-          {/* Other JSX elements for the rest of the component */}
         </div>
         <div id='st2'>
           <span>STEP 2 OF 3</span>
@@ -26,21 +33,11 @@ const OfferRideStep2 = () => {
           <input
             id="input3"
             type="text"
+            name="arrivalLocation"
             placeholder="Input exact address"
-            value={arrivalLocation}
-            onChange={handleArrivalLocationChange}
+            value={inputs.arrivalLocation}
+            onChange={handleInputChange}
           />
-          <svg
-            id='icon3'
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="search-icon"
-          >
-            {/* SVG path data */}
-          </svg>
         </div>
         <div className="dropdown-container">
           <a href="/select-on-map" id='selct-on-map1'>
@@ -52,19 +49,11 @@ const OfferRideStep2 = () => {
           <input
             id="input3"
             type="text"
+            name="dropOffLocation"
             placeholder="Input exact address"
+            value={inputs.dropOffLocation}
+            onChange={handleInputChange}
           />
-          <svg
-            id='icon3'
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="search-icon"
-          >
-            {/* SVG path data */}
-          </svg>
         </div>
         <a href="/select-on-map" id='selct-on-map'>
           select on map
@@ -83,8 +72,9 @@ const OfferRideStep2 = () => {
           <input
             type="datetime-local"
             id="datetime"
-            name="datetime"
-            onChange={(e) => console.log(e.target.value)} // Handle the selected date and time here
+            name="departureDateTime"
+            value={inputs.departureDateTime}
+            onChange={handleInputChange}
             placeholder="Select Date and Time"
           />
         </div>
@@ -95,7 +85,7 @@ const OfferRideStep2 = () => {
         </div>
         <div>
           <button id='nextbutton2'>
-          <a     href="offer-ride-step3"> Next</a>
+            <a href="offer-ride-step3">Next</a>
           </button>
         </div>
       </div>
