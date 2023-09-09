@@ -17,7 +17,6 @@ import {
   OfferRideStep1,
   OfferRideStep2,
   OfferRideStep3,
-  OfferRideStep4,
   SelectMap,
   MapModel,
   EventDetails,
@@ -27,7 +26,8 @@ import {
   Events,
   ReturnRideStep2,
   ReturnRideStep3,
-  RideSubmitted
+  RideSubmitted,
+  ReturnRideSubmitted
 } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -46,7 +46,6 @@ ReactDOM.createRoot(root).render(
         <Route path="/offer-ride-step1" element={<OfferRideStep1 />} />
         <Route path="/offer-ride-step2" element={<OfferRideStep2 />} />
         <Route path="/offer-ride-step3" element={<OfferRideStep3 />} />
-        <Route path="/offer-ride-step4" element={<OfferRideStep4 />} /> 
         <Route path="/select-on-map" element={<SelectMap />} />
         <Route path="/event-details" element={<EventDetails />} />
         <Route path="/profile" element={<Profile />} />
@@ -55,6 +54,11 @@ ReactDOM.createRoot(root).render(
         <Route path="/return-ride-step2" element={<ReturnRideStep2 />} />
         <Route path="/return-ride-step3" element={<ReturnRideStep3 />} />
         <Route path="/ride-submitted" element={< RideSubmitted/>} />
+        <Route path="/ride-submitted" element={< RideSubmitted/>} />
+        <Route path="/return-ride-submitted" element={< ReturnRideSubmitted/>} />
+
+
+        
 
 
 

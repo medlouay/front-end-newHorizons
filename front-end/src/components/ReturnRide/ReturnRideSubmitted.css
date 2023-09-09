@@ -1,0 +1,79 @@
+/* RideSubmitted.css */
+
+#container-ride-submitted {
+    margin-top: 100px;
+    position: relative;
+    width: 610px;
+    height: 308px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 0px #f2e8e0;
+    font: var(--menuitem, 400 16px/130% "Now", sans-serif); /* Include the specified font */
+    margin-bottom: 200px;
+  }
+  
+  #ride-submitted-title {
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 26px */
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  #ride-submitted-paragraph {
+    position: absolute;
+    top: 106px;
+    left: 50px;
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 130%; /* 18.2px */
+  }
+  
+  #no-ride-back-button {
+    font-family: Consolas;
+    position: absolute;
+    top: 222px;
+    left: 50px;
+    display: flex;
+    width: 230px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  
+  /* Next Button 1 */
+  #add-ride-back-button {
+    font-family: Consolas;
+    position: absolute;
+    top: 222px;
+    left: 330px;
+    display: flex;
+    width: 230px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+    background: var(--foundation-green-normal, #5D9B96);
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+  

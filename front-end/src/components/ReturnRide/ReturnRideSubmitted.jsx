@@ -1,9 +1,9 @@
 import React from 'react';
-import './RideSubmitted.css';
+import './ReturnRideSubmitted.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
-const RideSubmitted = () => {
+const ReturnRideSubmitted = () => {
   return (
 
     <div>
@@ -11,21 +11,21 @@ const RideSubmitted = () => {
     <div id="container-ride-submitted">
       <span id='ride-submitted-title'> ride Submitted </span>
       <p id='ride-submitted-paragraph'>
-        The ride to the event is submitted.
+        The  return ride is submitted.
         <br />
         <br />
-        Would you like to offer a ride back from the event as well?
+        Would you like to check your other rides?
       </p>
       <div>
         <button id='no-ride-back-button'>
-            <a href="offer-ride-step3">
+            <a href="return-ride-step3">
           Back</a>
         </button>
       </div>
       <div>
         <button id='add-ride-back-button'>
-            <a href="return-ride-step2">
-          Next</a>
+            <a href="">
+          View rides</a>
         </button>
       </div>
     </div>
@@ -33,6 +33,6 @@ const RideSubmitted = () => {
 
     </div>
   );
-}
+};
 
-export default RideSubmitted;
+export default ReturnRideSubmitted;

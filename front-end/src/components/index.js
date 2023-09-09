@@ -25,11 +25,11 @@ import Profile from "./Profile/Profile";
 import { RideDetails } from "./RideDetails/RideDetails";
 import AboutUs from "./AboutUs/AboutUs";
 import Events from "./Events/Events";
-import OfferRideStep4 from "./OfferRide/OfferRideStep4";
 import RideSubmitted from "./OfferRide/RideSubmitted";
 import ReturnRide from "./ReturnRide/ReturnRide";
 import ReturnRideStep2 from "./ReturnRide/ReturnRideStep2";
 import ReturnRideStep3 from "./ReturnRide/ReturnRideStep3";
+import ReturnRideSubmitted from "./ReturnRide/ReturnRideSubmitted";
 
 export 
 {Header,
@@ -50,7 +50,6 @@ export
     OfferRideStep1,
     OfferRideStep2,
     OfferRideStep3,
-    OfferRideStep4,
     SelectMap,
     MapModel,
     EventDetails,
@@ -63,7 +62,8 @@ export
     ReturnRide,
     ReturnRideStep2,
     ReturnRideStep3,
-    RideSubmitted
+    RideSubmitted,
+    ReturnRideSubmitted
 }
     
     

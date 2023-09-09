@@ -1,154 +1,215 @@
-/* styles.css */
-
-/* Title */
-#title {
-    color: var(--foundation-grey-dark, #2D3536);
-    font-family: Consolas;
-    font-size: 20px;
-    font-weight: bolder;
-    line-height: 130%; /* 26px */
-    text-transform: uppercase;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-  }
-  
-  /* Step 2 */
-  #st2 {
-    color: #5D9B96;
-    font-family: Consolas;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: absolute;
-    top: 116px;
-    left: 50px;
-    margin-bottom: 20px;
-  }
-  
-  /* Picker 1 */
-  #picker1 {
-    
-    display: inline-flex;
-    padding: 18px 60px;
-    position: absolute;
-    width: 280px;
-    top: 208px;
-    left: 50px;
-    border-radius: 10px;
-    border: 1px solid var(--foundation-green-normal, #5D9B96);
-  }
-  
-  /* Container 2 */
-  #container2 {
+#container3 {
     position: relative;
     width: 780px;
-    height: 584px;
+    height: 764px;
     margin: 50px auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
     border-radius: 10px;
     background: #ffffff;
     box-shadow: 0px 4px 8px 0px #f2e8e0;
+    margin-bottom: 50px;
   }
-  
-  /* Car Make */
-  #carmake {
+  #form3{
     position: absolute;
+    left: 50px;
     top: 177px;
-    left: 50px;
-    font-family: Consolas;
-    font-weight: bold;
-  }
-  
-  /* Car Model */
-  #carmodel {
-    position: absolute;
-    top: 177px;
-    left: 350px;
-    font-family: Consolas;
-    font-weight: bold;
-  }
-  
-  /* Picker 2 */
-  #picker2 {
-    padding: 18px 60px;
-    position: absolute;
-    top: 208px;
-    left: 350px;
-    border-radius: 10px;
-    width: 280px;
-    border: 1px solid var(--foundation-green-normal, #5D9B96);
-  }
-  
-  /* Car Year */
-  #caryear {
-    position: absolute;
-    top: 277px;
-    left: 50px;
-    font-family: Consolas;
-    font-weight: bold;
-  }
-  
-  /* Car Model Input */
-  #carModelinput {
-    padding: 18px 60px;
-    width: 280px;
-    position: absolute;
-    top: 308px;
-    left: 50px;
-    border-radius: 10px;
-    border: 1px solid var(--foundation-green-normal, #5D9B96);
-  }
-  
-  /* Paragraph 1 */
-  #paragraph1 {
-    position: absolute;
-    top: 408px;
-    left: 84px;
     color: var(--foundation-grey-dark, #2D3536);
     font-family: Consolas;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 130%; /* 18.2px */
-    width: 644px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 20.8px */
   }
-  
-  /* Icon 1 */
-  #icon1 {
+  #search-bar3{
+    position: absolute;
+    top: 208px;
+    left: 48px;
+    display: flex;
+    width: 481px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  #icon3{
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 50px;
-    top: 408px;
+    top: 20px;
+    left: 440px;
   }
-  
+  #input3 {
+    display: flex;
+    width: 441px;
+    align-items: center;
+    gap: 283px;
+    flex-shrink: 0;
+    outline: none !important;
+    border: none; /* Remove border (if any) */
+    box-shadow: none; /* Remove any box-shadow (if any) */
+  }
+  /* CSS */
+  .dropdown-container {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown {
+    position:absolute;
+    top: 269px;
+    left: 50px;
+    color: var(--foundation-green-dark, #467471);
+    font-family: Consolas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    text-decoration-line: underline;
+    appearance: none; /* Removes default styles on certain browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none; /* Remove the border */
+    background-color: transparent;
+    cursor: pointer; /* Change the cursor on hover */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }
+  .arrow-icon {
+    position: absolute;
+    top: 278px;
+    left: 152px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #555;
+    pointer-events: none; /* Make the arrow icon non-interactable */
+  }
+  #drop-off-point{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%; /* 20.8px */
+  }
+  #search-bar4{
+    position: absolute;
+    top: 380px;
+    left: 48px;
+    width: 481px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  #icon3{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    left: 440px;
+  }
+  .dropdown-container1 {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown1 {
+    position:absolute;
+    top: 460px;
+    left: 50px;
+    color: var(--foundation-green-dark, #467471);
+    font-family: Consolas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    text-decoration-line: underline;
+    appearance: none; /* Removes default styles on certain browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none; /* Remove the border */
+    background-color: transparent;
+    cursor: pointer; /* Change the cursor on hover */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }
+  .arrow-icon1 {
+    position: absolute;
+    top: 450px;
+    left: 152px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #555;
+    pointer-events: none; /* Make the arrow icon non-interactable */
+  }
+  #deprature-data-and-time{
+    position: absolute;
+    top: 518px;
+    left: 50px;
+    color: var(--foundation-grey-dark, #2D3536);
+    font-family: Consolas;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 130%; /* 20.8px */
+  }
+  /* DateTimePicker.css */
+  .datetime-picker {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  .datetime-picker .calendar-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 533px;
+    left: 385px;
+  }
+  .datetime-picker input[type="datetime-local"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
+    color: #C3C6C6; /* Set the font color */
+    outline: none;
+    font-family: Consolas;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    position: absolute;
+    top: 530px;
+    left: 48px;
+    width: 381px;
+    padding: 18px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--foundation-green-normal, #5D9B96);
+  }
+  /* Style the placeholder text */
+  .datetime-picker input[type="datetime-local"]::placeholder {
+    color: #C3C6C6; /* Set the color for the placeholder text */
+  }
   /* Back Button 1 */
-  #backbutton1 {
+  #backbutton2 {
     font: Consolas;
     position: absolute;
-    top: 504px;
+    top: 646px;
     left: 50px;
     display: flex;
     width: 230px;
-    padding: 10px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     border: 1px solid var(--foundation-green-normal, #5D9B96);
   }
-  
   /* Next Button 1 */
-  #nextbutton1 {
+  #nextbutton2 {
     font-family: Consolas;
     position: absolute;
-    top: 504px;
+    top: 646px;
     left: 350px;
     display: flex;
     width: 230px;
-    padding: 10px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -156,25 +217,70 @@
     border: 1px solid var(--foundation-green-normal, #5D9B96);
     background: var(--foundation-green-normal, #5D9B96);
   }
-  
-  /* Link 1 */
-  #link1 {
-    color: var(--foundation-green-normal, #5D9B96);
+
+  #selct-on-map{
+    position:absolute;
+    top: 270px;
+    left: 50px;
+    color: var(--foundation-green-dark, #467471);
     font-family: Consolas;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 130%;
+    line-height: 130%; /* 18.2px */
     text-decoration-line: underline;
+    appearance: none; /* Removes default styles on certain browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none; /* Remove the border */
+    background-color: transparent;
+    cursor: pointer; /* Change the cursor on hover */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+
   }
-  /* Disable default blue color for links */
-#back-link {
-    color: black; /* You can use any color you prefer */
-    text-decoration: none; /* Remove underline if desired */
+  #selct-on-map1{
+    width:200px;
+    position:absolute;
+    top: 430px;
+    left: 50px;
+    color: var(--foundation-green-dark, #467471);
+    font-family: Consolas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    text-decoration-line: underline;
+    appearance: none; /* Removes default styles on certain browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none; /* Remove the border */
+    background-color: transparent;
+    cursor: pointer; /* Change the cursor on hover */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+
+  }
+  #title {
+    color: #2d3536;
+    font-family: Consolas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50px;
+    top: 50px;
   }
   
- 
- #back-link:hover {
-    color:black; /* You can use any color you prefer */
+  #st2 {
+    color: #5D9B96;
+    font-family: Consolas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50px;
+    top: 116px;
   }
-   /* Style for hovered links */

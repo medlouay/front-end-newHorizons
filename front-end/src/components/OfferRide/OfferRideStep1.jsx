@@ -39,7 +39,7 @@ const OfferRideStep1 = () => {
         <div>
           <div>
             <div id="offer-ride-title">Offer ride</div>
-            <div id="step1">Step 1 of 4</div>
+            <div id="step1">Step 1 of 3</div>
             <div id="select-event">Select an event</div>
             <div id="searchbar">
               <input
