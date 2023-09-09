@@ -1,7 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './OfferRideStep2.css';
 
+const carMakeOptions = [
+  { value: '', label: 'Select car make', disabled: true },
+  { value: 'option1', label: 'Option 1' },
+  { value: 'option2', label: 'Option 2' },
+  { value: 'option3', label: 'Option 3' },
+  // Add more options as needed
+];
+
+const carModelOptions = [
+  { value: '', label: 'Select car model', disabled: true },
+  { value: 'model1', label: 'Model 1' },
+  { value: 'model2', label: 'Model 2' },
+  { value: 'model3', label: 'Model 3' },
+  // Add more car model options as needed
+];
+
 const OfferRideStep2 = () => {
+  const [selectedCarMake, setSelectedCarMake] = useState('');
+  const [selectedCarModel, setSelectedCarModel] = useState('');
+  const [carYearInput, setCarYearInput] = useState('');
+
+  const handleCarMakeChange = (event) => {
+    setSelectedCarMake(event.target.value);
+  };
+
+  const handleCarModelChange = (event) => {
+    setSelectedCarModel(event.target.value);
+  };
+
+  const handleCarYearChange = (event) => {
+    setCarYearInput(event.target.value);
+  };
+
   return (
     <div id="container2">
       <div id='title'>
@@ -15,28 +47,32 @@ const OfferRideStep2 = () => {
         <div id='carmake'>
           <label htmlFor="picker">Car make</label>
         </div>
-        <select id="picker1">
-          <option value="" disabled selected>
-            Select car make
-          </option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          {/* Add more options as needed */}
+        <select id="picker1" value={selectedCarMake} onChange={handleCarMakeChange}>
+          {carMakeOptions.map((option, index) => (
+            <option
+              key={index}
+              value={option.value}
+              disabled={option.disabled}
+            >
+              {option.label}
+            </option>
+          ))}
         </select>
       </div>
       <div>
         <div id='carmodel'>
           <label htmlFor="picker">Car model</label>
         </div>
-        <select id="picker2">
-          <option value="" disabled selected>
-            Select car model
-          </option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          {/* Add more options as needed */}
+        <select id="picker2" value={selectedCarModel} onChange={handleCarModelChange}>
+          {carModelOptions.map((option, index) => (
+            <option
+              key={index}
+              value={option.value}
+              disabled={option.disabled}
+            >
+              {option.label}
+            </option>
+          ))}
         </select>
       </div>
       <div>
@@ -47,11 +83,13 @@ const OfferRideStep2 = () => {
           type="text"
           id="carModelinput"
           placeholder="Input car year"
+          value={carYearInput}
+          onChange={handleCarYearChange}
         />
       </div>
       <div>
         <span id='paragraph1'>
-          Drivers who enter their cars make and model number to allow carbon calculation enter
+          Drivers who enter their car's make and model number to allow carbon calculation enter
           our Corporate Rewards Program to receive discounts on hotels and events.
           <a id='link1' href="" target="_blank" rel="noopener noreferrer">
             Learn more
@@ -66,20 +104,16 @@ const OfferRideStep2 = () => {
         </svg>
       </div>
       <div>
-     
         <button id='backbutton1'> 
-
-      <a href='offer-ride-step1' id='back-link'>
-  Back
-</a>
-
+          <a href='offer-ride-step1' id='back-link'>
+            Back
+          </a>
         </button>
-       
       </div>
       <div>
         <button id='nextbutton1'> 
-        <a href='offer-ride-step3'>
-          Next
+          <a href='offer-ride-step3'>
+            Next
           </a>
         </button>
       </div>

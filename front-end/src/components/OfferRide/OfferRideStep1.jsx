@@ -4,12 +4,13 @@ import Footer from '../Footer/Footer';
 import './OfferRideStep1.css';
 
 const OfferRideStep1 = () => {
-  const [selectedOption1, setSelectedOption1] = useState(false); // Use boolean to represent selection
+  const [selectedOption1, setSelectedOption1] = useState(false);
   const [selectedOption2, setSelectedOption2] = useState(false);
+  const [searchValue, setSearchValue] = useState(''); // State to store user input
 
   const handleOption1Change = () => {
     setSelectedOption1(true);
-    setSelectedOption2(false); // Deselect the other option
+    setSelectedOption2(false);
   };
 
   const handleOption2Change = () => {
@@ -17,11 +18,15 @@ const OfferRideStep1 = () => {
     setSelectedOption2(true);
   };
 
+  const handleSearchInputChange = (event) => {
+    setSearchValue(event.target.value); // Update the search input value in state
+  };
+
   const handleNextButtonClick = () => {
     if (selectedOption1) {
-      window.location.href = 'offer-ride-step2'; // Navigate to the event
+      window.location.href = 'offer-ride-step2';
     } else if (selectedOption2) {
-      window.location.href = 'return-ride-step2'; // Navigate to the return ride
+      window.location.href = 'return-ride-step2';
     } else {
       alert('Please select an option to proceed.');
     }
@@ -37,10 +42,15 @@ const OfferRideStep1 = () => {
             <div id="step1">Step 1 of 4</div>
             <div id="select-event">Select an event</div>
             <div id="searchbar">
-              <input type="text" id="searchInput" placeholder="Search..." />
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Search..."
+                value={searchValue} // Bind input value to state
+                onChange={handleSearchInputChange} // Handle input change
+              />
             </div>
 
-            {/* Option Picker 1 */}
             <div id="picker">
               <label>
                 <input
@@ -54,7 +64,6 @@ const OfferRideStep1 = () => {
               </label>
             </div>
 
-            {/* Option Picker 2 */}
             <div id="picker-option2">
               <label>
                 <input
@@ -68,13 +77,16 @@ const OfferRideStep1 = () => {
               </label>
             </div>
 
-            {/* Next Button */}
             <div>
               <button onClick={handleNextButtonClick} id="nxt-button">
                 Next
               </button>
             </div>
           </div>
+
+
+
+          
         </div>
       </div>
 
