@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import './OfferRideStep2.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom'; 
 
 const OfferRideStep2 = ({ onNext }) => {
   const [inputs, setInputs] = useState({
-    arrivalLocation: '',
-    dropOffLocation: '',
-    departureDateTime: '',
+    depart_location: '', 
+    arrival_location: '', 
+    departure_date: '',
+    picking_time: '', 
   });
 
   const handleInputChange = (e) => {
@@ -17,11 +19,12 @@ const OfferRideStep2 = ({ onNext }) => {
       [name]: value,
     }));
   };
+
   const handleNextButtonClick = () => {
     onNext({ ...inputs });
-    window.location.href = 'offer-ride-step3';
+
   };
-  
+
   return (
     <div>
       <Navbar />
@@ -32,14 +35,14 @@ const OfferRideStep2 = ({ onNext }) => {
         <div id='st2'>
           <span>STEP 2 OF 3</span>
         </div>
-        <span id='form3'> Form </span>
+        <span id='form3'> From </span>
         <div id="search-bar3">
           <input
             id="input3"
             type="text"
-            name="arrivalLocation"
+            name="depart_location" 
             placeholder="Input exact address"
-            value={inputs.arrivalLocation}
+            value={inputs.depart_location} 
             onChange={handleInputChange}
           />
         </div>
@@ -53,9 +56,9 @@ const OfferRideStep2 = ({ onNext }) => {
           <input
             id="input3"
             type="text"
-            name="dropOffLocation"
+            name="arrival_location" 
             placeholder="Input exact address"
-            value={inputs.dropOffLocation}
+            value={inputs.arrival_location} 
             onChange={handleInputChange}
           />
         </div>
@@ -76,21 +79,33 @@ const OfferRideStep2 = ({ onNext }) => {
           <input
             type="datetime-local"
             id="datetime"
-            name="departureDateTime"
-            value={inputs.departureDateTime}
+            name="departure_date" 
+            value={inputs.departure_date} 
             onChange={handleInputChange}
             placeholder="Select Date and Time"
           />
         </div>
-        <div>
-          <button id='backbutton2'>
-            <a href="offer-ride-step1">Back</a>
-          </button>
+        <span id='pickup-time'>Pickup Time</span>
+        <div className="datetime-picker">
+          <input
+            type="time"
+            id="time"
+            name="picking_time" 
+            value={inputs.picking_time} 
+            onChange={handleInputChange}
+          />
         </div>
         <div>
-          <button id='nextbutton2'>
-            <a href="offer-ride-step3">Next</a>
-          </button>
+          <Link to="/offer-ride-step1">
+            <button id='backbutton2'>Back</button>
+          </Link>
+        </div>
+        <div>
+          <Link to="/offer-ride-step3">
+            <button id='nextbutton2' onClick={handleNextButtonClick}>
+              Next
+            </button>
+          </Link>
         </div>
       </div>
       <Footer />

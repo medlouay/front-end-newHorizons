@@ -2,39 +2,60 @@ import React, { useState } from 'react';
 import './OfferRideStep3.css';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-import axios from 'axios'; // Import Axios library
+import axios from 'axios';
+import { Link } from 'react-router-dom'; 
 
 const OfferRideStep3 = ({ formData }) => {
-  const [numberOfAvailableSeats, setNumberOfAvailableSeats] = useState('1');
-  const [priceForPassengers, setPriceForPassengers] = useState('');
-  const [priceUnit, setPriceUnit] = useState('1');
-  const [commentToPassengers, setCommentToPassengers] = useState('');
+  const [formDataStep3, setFormDataStep3] = useState({
+    seatsAvailable: '1',
+    price: '',
+    priceUnit: '1',
+    commentRide: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormDataStep3((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
 
   const handleSubmit = async () => {
-    // Prepare the data to send to the backend
     const dataToSend = {
-      id_ride: 0, // You can generate this on the server or use some unique identifier
+      id_ride: 0,
       arrival_location: formData.step1Data.searchValue,
-      depart_location: formData.step2Data.inputs.arrivalLocation,
-      price: priceForPassengers,
-      seats_available: numberOfAvailableSeats,
-      arrival_time: '', // Fill this with the appropriate value
-      comment_ride: commentToPassengers,
-      departure_date: '', // Fill this with the appropriate value
-      picking_time: '', // Fill this with the appropriate value
+      depart_location: formData.step2Data.inputs.arrival_location,
+      price: formDataStep3.price,
+      seats_available: formDataStep3.seatsAvailable,
+      arrival_time: '',
+      comment_ride: formDataStep3.commentRide,
+      departure_date: '',
+      picking_time: '',
+    };
+
+    const modifiedData = {
+      id_ride: dataToSend.id_ride,
+      arrival_location: dataToSend.arrival_location,
+      depart_location: dataToSend.depart_location,
+      price: dataToSend.price,
+      seats_available: dataToSend.seats_available,
+      arrival_time: dataToSend.arrival_time,
+      comment_ride: dataToSend.comment_ride,
+      departure_date: dataToSend.departure_date,
+      picking_time: dataToSend.picking_time,
     };
 
     try {
-      // Send a POST request to your backend API
-      const response = await axios.post('http://127.0.0.1:3309/api/rides', dataToSend);
+     
+      const response = await axios.post('http://127.0.0.1:3309/api/rides', modifiedData);
 
-      // Handle the response, e.g., show a success message
       console.log('Ride data sent successfully:', response.data);
     } catch (error) {
-      // Handle errors, e.g., show an error message
       console.error('Error sending ride data:', error);
     }
   };
+
   return (
     <div>
       <Navbar />
@@ -49,8 +70,9 @@ const OfferRideStep3 = ({ formData }) => {
         <div>
           <select
             id="number-of-available-seats"
-            value={numberOfAvailableSeats}
-            onChange={(e) => setNumberOfAvailableSeats(e.target.value)}
+            name="seatsAvailable"
+            value={formDataStep3.seatsAvailable}
+            onChange={handleInputChange}
           >
             <option value="1"> 1</option>
             <option value="2"> 2</option>
@@ -65,16 +87,18 @@ const OfferRideStep3 = ({ formData }) => {
             <input
               id="input-price-for-passanger"
               type="text"
-              value={priceForPassengers}
-              onChange={(e) => setPriceForPassengers(e.target.value)}
+              name="price"
+              value={formDataStep3.price}
+              onChange={handleInputChange}
             />
           </div>
         </div>
         <div>
           <select
             id="select-price-for-passenger"
-            value={priceUnit}
-            onChange={(e) => setPriceUnit(e.target.value)}
+            name="priceUnit"
+            value={formDataStep3.priceUnit}
+            onChange={handleInputChange}
           >
             <option value="1"> EUR</option>
             <option value="2"> 2</option>
@@ -88,18 +112,19 @@ const OfferRideStep3 = ({ formData }) => {
           <input
             id="input-comment-tp-passanger"
             type="text"
-            value={commentToPassengers}
-            onChange={(e) => setCommentToPassengers(e.target.value)}
+            name="commentRide"
+            value={formDataStep3.commentRide}
+            onChange={handleInputChange}
           />
         </div>
         <div>
           <button id='backbutton-step4'>
-            <a href="offer-ride-step2">Back</a>
+            <Link to="/offer-ride-step2">Back</Link> 
           </button>
         </div>
         <div>
-        <button id='nextbutton-step4' onClick={handleSubmit}>
-            <a href="ride-submitted">Next</a>
+          <button id='nextbutton-step4' onClick={handleSubmit}>
+            <Link to="/ride-submitted">Next</Link> 
           </button>
         </div>
       </div>

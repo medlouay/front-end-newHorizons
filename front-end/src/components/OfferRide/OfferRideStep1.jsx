@@ -2,39 +2,22 @@ import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import './OfferRideStep1.css';
-import './OfferRideStep2.jsx';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { Link } from 'react-router-dom'; // Import Link
 
 const OfferRideStep1 = ({ onNext }) => {
-  const navigate = useNavigate(); // Get the navigate function
-
-  const [selectedOption1, setSelectedOption1] = useState(false);
-  const [selectedOption2, setSelectedOption2] = useState(false);
   const [searchValue, setSearchValue] = useState('');
-
-  const handleOption1Change = () => {
-    setSelectedOption1(true);
-    setSelectedOption2(false);
-  };
-
-  const handleOption2Change = () => {
-    setSelectedOption1(false);
-    setSelectedOption2(true);
-  };
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const handleSearchInputChange = (event) => {
     setSearchValue(event.target.value);
   };
 
   const handleNextButtonClick = () => {
-    if (selectedOption1) {
-      onNext({ selectedOption1, searchValue });
-      navigate('/offer-ride-step2'); 
-    } else if (selectedOption2) {
-      onNext({ selectedOption2, searchValue });
-      navigate('/return-ride-step2'); 
+    if (searchValue.trim() !== '') {
+      setSelectedEvent(searchValue); // Save the event in state
+      onNext({ event: searchValue }); // Pass the event data to the next step
     } else {
-      alert('Please select an option to proceed.');
+      alert('Please enter an event to proceed.');
     }
   };
 
@@ -57,36 +40,12 @@ const OfferRideStep1 = ({ onNext }) => {
               />
             </div>
 
-            <div id="picker">
-              <label>
-                <input
-                  type="radio"
-                  name="option"
-                  value="option1"
-                  checked={selectedOption1}
-                  onChange={handleOption1Change}
-                />
-                To the event
-              </label>
-            </div>
-
-            <div id="picker-option2">
-              <label>
-                <input
-                  type="radio"
-                  name="option"
-                  value="option2"
-                  checked={selectedOption2}
-                  onChange={handleOption2Change}
-                />
-                Return ride
-              </label>
-            </div>
-
             <div>
-              <button onClick={handleNextButtonClick} id="nxt-button">
-                Next
-              </button>
+              <Link to="/offer-ride-step2">
+                <button id="nxt-button" onClick={handleNextButtonClick}>
+                  Next
+                </button>
+              </Link>
             </div>
           </div>
         </div>
