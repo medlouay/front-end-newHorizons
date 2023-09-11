@@ -3,7 +3,7 @@ import './OfferRideStep2.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
-const OfferRideStep2 = () => {
+const OfferRideStep2 = ({ onNext }) => {
   const [inputs, setInputs] = useState({
     arrivalLocation: '',
     dropOffLocation: '',
@@ -17,7 +17,11 @@ const OfferRideStep2 = () => {
       [name]: value,
     }));
   };
-
+  const handleNextButtonClick = () => {
+    onNext({ ...inputs });
+    window.location.href = 'offer-ride-step3';
+  };
+  
   return (
     <div>
       <Navbar />

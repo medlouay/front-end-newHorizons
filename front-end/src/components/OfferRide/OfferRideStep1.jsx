@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import './OfferRideStep1.css';
+import './OfferRideStep2.jsx';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
-const OfferRideStep1 = () => {
+const OfferRideStep1 = ({ onNext }) => {
+  const navigate = useNavigate(); // Get the navigate function
+
   const [selectedOption1, setSelectedOption1] = useState(false);
   const [selectedOption2, setSelectedOption2] = useState(false);
-  const [searchValue, setSearchValue] = useState(''); // State to store user input
+  const [searchValue, setSearchValue] = useState('');
 
   const handleOption1Change = () => {
     setSelectedOption1(true);
@@ -19,14 +23,16 @@ const OfferRideStep1 = () => {
   };
 
   const handleSearchInputChange = (event) => {
-    setSearchValue(event.target.value); // Update the search input value in state
+    setSearchValue(event.target.value);
   };
 
   const handleNextButtonClick = () => {
     if (selectedOption1) {
-      window.location.href = 'offer-ride-step2';
+      onNext({ selectedOption1, searchValue });
+      navigate('/offer-ride-step2'); 
     } else if (selectedOption2) {
-      window.location.href = 'return-ride-step2';
+      onNext({ selectedOption2, searchValue });
+      navigate('/return-ride-step2'); 
     } else {
       alert('Please select an option to proceed.');
     }
@@ -46,8 +52,8 @@ const OfferRideStep1 = () => {
                 type="text"
                 id="searchInput"
                 placeholder="Search..."
-                value={searchValue} // Bind input value to state
-                onChange={handleSearchInputChange} // Handle input change
+                value={searchValue}
+                onChange={handleSearchInputChange}
               />
             </div>
 
@@ -83,10 +89,6 @@ const OfferRideStep1 = () => {
               </button>
             </div>
           </div>
-
-
-
-          
         </div>
       </div>
 

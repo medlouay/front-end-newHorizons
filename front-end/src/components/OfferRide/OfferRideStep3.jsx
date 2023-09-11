@@ -2,13 +2,39 @@ import React, { useState } from 'react';
 import './OfferRideStep3.css';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
+import axios from 'axios'; // Import Axios library
 
-const OfferRideStep3 = () => {
+const OfferRideStep3 = ({ formData }) => {
   const [numberOfAvailableSeats, setNumberOfAvailableSeats] = useState('1');
   const [priceForPassengers, setPriceForPassengers] = useState('');
   const [priceUnit, setPriceUnit] = useState('1');
   const [commentToPassengers, setCommentToPassengers] = useState('');
 
+  const handleSubmit = async () => {
+    // Prepare the data to send to the backend
+    const dataToSend = {
+      id_ride: 0, // You can generate this on the server or use some unique identifier
+      arrival_location: formData.step1Data.searchValue,
+      depart_location: formData.step2Data.inputs.arrivalLocation,
+      price: priceForPassengers,
+      seats_available: numberOfAvailableSeats,
+      arrival_time: '', // Fill this with the appropriate value
+      comment_ride: commentToPassengers,
+      departure_date: '', // Fill this with the appropriate value
+      picking_time: '', // Fill this with the appropriate value
+    };
+
+    try {
+      // Send a POST request to your backend API
+      const response = await axios.post('http://127.0.0.1:3309/api/rides', dataToSend);
+
+      // Handle the response, e.g., show a success message
+      console.log('Ride data sent successfully:', response.data);
+    } catch (error) {
+      // Handle errors, e.g., show an error message
+      console.error('Error sending ride data:', error);
+    }
+  };
   return (
     <div>
       <Navbar />
@@ -72,7 +98,7 @@ const OfferRideStep3 = () => {
           </button>
         </div>
         <div>
-          <button id='nextbutton-step4'>
+        <button id='nextbutton-step4' onClick={handleSubmit}>
             <a href="ride-submitted">Next</a>
           </button>
         </div>
