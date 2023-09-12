@@ -1,24 +1,34 @@
-import React, { useState } from 'react';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
-import './OfferRideStep1.css';
-import { Link } from 'react-router-dom'; // Import Link
+import React, { useState, useEffect } from "react";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import "./OfferRideStep1.css";
+import { Link } from "react-router-dom"; // Import Link
+import axios from "axios";
 
-const OfferRideStep1 = ({ onNext }) => {
-  const [searchValue, setSearchValue] = useState('');
+const OfferRideStep1 = ({ onNext, prevStep, nextStep }) => {
+  const [searchValue, setSearchValue] = useState("");
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    fetch("./eventsData.json")
+      .then((res) => res.json())
+      .then((res) => setEvents(res));
+    // const response = await axios.post('http://127.0.0.1:3309/api/rides', modifiedData);
+  }, []);
 
   const handleSearchInputChange = (event) => {
     setSearchValue(event.target.value);
   };
 
   const handleNextButtonClick = () => {
-    if (searchValue.trim() !== '') {
+    if (searchValue.trim() !== "") {
       setSelectedEvent(searchValue); // Save the event in state
       onNext({ event: searchValue }); // Pass the event data to the next step
     } else {
-      alert('Please enter an event to proceed.');
+      alert("Please enter an event to proceed.");
     }
+    nextStep();
   };
 
   return (
@@ -31,6 +41,20 @@ const OfferRideStep1 = ({ onNext }) => {
             <div id="step1">Step 1 of 3</div>
             <div id="select-event">Select an event</div>
             <div id="searchbar">
+              <select
+                className="design-component-instance-node"
+                placeholder="Select your interests for better networking"
+              >
+                <option value="" disabled selected>
+                  Select your interests for better networking
+                </option>
+                {events.map((el, idx) => (
+                  <option key={idx} value={el.id_event}>
+                    {el.name_event}
+                  </option>
+                ))}
+              </select>
+
               <input
                 type="text"
                 id="searchInput"

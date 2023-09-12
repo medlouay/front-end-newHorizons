@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import axios from 'axios';
 import { Link } from 'react-router-dom'; 
 
-const OfferRideStep3 = ({ formData }) => {
+const OfferRideStep3 = ({ formData, prevStep }) => {
   const [formDataStep3, setFormDataStep3] = useState({
     seatsAvailable: '1',
     price: '',
@@ -22,35 +22,36 @@ const OfferRideStep3 = ({ formData }) => {
   };
 
   const handleSubmit = async () => {
+    console.log(formData)
     const dataToSend = {
       id_ride: 0,
-      arrival_location: formData.step1Data.searchValue,
-      depart_location: formData.step2Data.inputs.arrival_location,
+      arrival_location: formData.step2Data.arrival_location,
+      depart_location: formData.step2Data.depart_location,
       price: formDataStep3.price,
       seats_available: formDataStep3.seatsAvailable,
       arrival_time: '',
       comment_ride: formDataStep3.commentRide,
       departure_date: '',
-      picking_time: '',
+      picking_time: formData.step2Data.picking_time,
     };
 
     const modifiedData = {
       id_ride: dataToSend.id_ride,
-      arrival_location: dataToSend.arrival_location,
-      depart_location: dataToSend.depart_location,
+      arrivalLocation: dataToSend.arrival_location,
+      departLocation: dataToSend.depart_location,
       price: dataToSend.price,
-      seats_available: dataToSend.seats_available,
+      seatsAvailable: dataToSend.seats_available,
       arrival_time: dataToSend.arrival_time,
-      comment_ride: dataToSend.comment_ride,
+      commentRide: dataToSend.comment_ride,
       departure_date: dataToSend.departure_date,
-      picking_time: dataToSend.picking_time,
+      pickingTime: dataToSend.picking_time,
     };
 
     try {
-     
-      const response = await axios.post('http://127.0.0.1:3309/api/rides', modifiedData);
+    console.log(modifiedData)
+    const response = await axios.post('http://127.0.0.1:3309/api/rides/add', modifiedData);
 
-      console.log('Ride data sent successfully:', response.data);
+    console.log('Ride data sent successfully:', response.data);
     } catch (error) {
       console.error('Error sending ride data:', error);
     }
@@ -118,9 +119,9 @@ const OfferRideStep3 = ({ formData }) => {
           />
         </div>
         <div>
-          <button id='backbutton-step4'>
-            <Link to="/offer-ride-step2">Back</Link> 
-          </button>
+          <Link to="/offer-ride-step2">
+            <button id='backbutton2' onClick={prevStep}>Back</button>
+          </Link>
         </div>
         <div>
           <button id='nextbutton-step4' onClick={handleSubmit}>

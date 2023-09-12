@@ -9,6 +9,7 @@ const Event = () => {
 
   useEffect(() => {
     axios.get("/eventsData.json").then((res) => setData(res.data));
+    // axios.get("http://127.0.0.1:3309/api/events/all").then((res) => console.log(res.data));
   }, []);
 
   return (

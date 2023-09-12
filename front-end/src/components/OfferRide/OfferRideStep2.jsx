@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom'; 
 
-const OfferRideStep2 = ({ onNext }) => {
+const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
   const [inputs, setInputs] = useState({
     depart_location: '', 
     arrival_location: '', 
@@ -22,7 +22,7 @@ const OfferRideStep2 = ({ onNext }) => {
 
   const handleNextButtonClick = () => {
     onNext({ ...inputs });
-
+    nextStep();
   };
 
   return (
@@ -97,7 +97,7 @@ const OfferRideStep2 = ({ onNext }) => {
         </div>
         <div>
           <Link to="/offer-ride-step1">
-            <button id='backbutton2'>Back</button>
+            <button id='backbutton2' onClick={prevStep}>Back</button>
           </Link>
         </div>
         <div>

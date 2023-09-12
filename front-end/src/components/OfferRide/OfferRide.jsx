@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import OfferRideStep1 from './OfferRideStep1';
-import OfferRideStep2 from './OfferRideStep2';
-import OfferRideStep3 from './OfferRideStep3';
-import './OfferRide.css';
+import React, { useState } from "react";
+import OfferRideStep1 from "./OfferRideStep1";
+import OfferRideStep2 from "./OfferRideStep2";
+import OfferRideStep3 from "./OfferRideStep3";
+import "./OfferRide.css";
 
 const OfferRide = () => {
   const [formData, setFormData] = useState({
@@ -10,6 +10,8 @@ const OfferRide = () => {
     step2Data: {},
     step3Data: {},
   });
+
+  const [step, setStep] = useState(1);
 
   const handleStep1Data = (data) => {
     setFormData((prevData) => ({
@@ -25,13 +27,26 @@ const OfferRide = () => {
     }));
   };
 
-  return (
-    <div id="container">
-      <OfferRideStep1 onNext={handleStep1Data} />
-      <OfferRideStep2 onNext={handleStep2Data} />
-      <OfferRideStep3 formData={formData} />
-    </div>
-  );
+  const nextStep = () => {
+    setStep(step + 1);
+    // console.log(step);    
+  };
+  const prevStep = () => {
+      setStep(step - 1);
+      // console.log(step);
+  };
+
+  switch (step) {
+    case 1:
+      return <OfferRideStep1 onNext={handleStep1Data} nextStep={nextStep} prevStep={prevStep}/>;
+    case 2:
+      return <OfferRideStep2 onNext={handleStep2Data} nextStep={nextStep} prevStep={prevStep}/>;
+    case 3:
+      return <OfferRideStep3 formData={formData} prevStep={prevStep}/>;
+    // never forget the default case, otherwise VS code would be mad!
+    default:
+      return <OfferRide />;
+  }
 };
 
 export default OfferRide;
