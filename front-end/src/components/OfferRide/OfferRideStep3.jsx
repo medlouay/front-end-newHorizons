@@ -48,7 +48,7 @@ const OfferRideStep3 = ({ formData }) => {
 
     try {
      
-      const response = await axios.post('http://127.0.0.1:3309/api/rides', modifiedData);
+      const response = await axios.post('http://127.0.0.1:3309/api/rides/add', modifiedData);
 
       console.log('Ride data sent successfully:', response.data);
     } catch (error) {
