@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
   const [inputs, setInputs] = useState({
-    depart_location: '', 
-    arrival_location: '', 
-    departure_date: '',
-    picking_time: '', 
+    departLocation: '', 
+    arrivalLocation: '', 
+    departureDate: '',
+    pickingTime: '', 
   });
 
   const handleInputChange = (e) => {
@@ -40,9 +40,9 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
           <input
             id="input3"
             type="text"
-            name="depart_location" 
+            name="departLocation" 
             placeholder="Input exact address"
-            value={inputs.depart_location} 
+            value={inputs.departLocation} 
             onChange={handleInputChange}
           />
         </div>
@@ -56,9 +56,9 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
           <input
             id="input3"
             type="text"
-            name="arrival_location" 
+            name="arrivalLocation" 
             placeholder="Input exact address"
-            value={inputs.arrival_location} 
+            value={inputs. arrivalLocation} 
             onChange={handleInputChange}
           />
         </div>
@@ -79,8 +79,8 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
           <input
             type="datetime-local"
             id="datetime"
-            name="departure_date" 
-            value={inputs.departure_date} 
+            name="departureDate" 
+            value={inputs.departureDate} 
             onChange={handleInputChange}
             placeholder="Select Date and Time"
           />
@@ -90,8 +90,8 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
           <input
             type="time"
             id="time"
-            name="picking_time" 
-            value={inputs.picking_time} 
+            name="pickingTime" 
+            value={inputs.pickingTime} 
             onChange={handleInputChange}
           />
         </div>

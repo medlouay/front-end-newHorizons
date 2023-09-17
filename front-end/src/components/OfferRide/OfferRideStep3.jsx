@@ -25,26 +25,26 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
     console.log(formData)
     const dataToSend = {
       id_ride: 0,
-      arrival_location: formData.step2Data.arrival_location,
-      depart_location: formData.step2Data.depart_location,
+      arrival_location: formData.step2Data.arrivalLocation,
+      depart_location: formData.step2Data.departLocation,
       price: formDataStep3.price,
       seats_available: formDataStep3.seatsAvailable,
       arrival_time: '',
       comment_ride: formDataStep3.commentRide,
       departure_date: '',
-      picking_time: formData.step2Data.picking_time,
+      picking_time: formData.step2Data.pickingTime,
     };
 
     const modifiedData = {
       id_ride: dataToSend.id_ride,
-      arrivalLocation: dataToSend.arrival_location,
-      departLocation: dataToSend.depart_location,
+      arrivalLocation: dataToSend.arrivalLocation,
+      departLocation: dataToSend.departLocation,
       price: dataToSend.price,
-      seatsAvailable: dataToSend.seats_available,
-      arrival_time: dataToSend.arrival_time,
-      commentRide: dataToSend.comment_ride,
-      departure_date: dataToSend.departure_date,
-      pickingTime: dataToSend.picking_time,
+      seatsAvailable: dataToSend.seatsAvailable,
+      arrival_time: dataToSend.arrivalTime,
+      commentRide: dataToSend.commentRide,
+      departure_date: dataToSend.departureDate,
+      pickingTime: dataToSend.pickingTime,
     };
 
     try {
@@ -54,15 +54,13 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
     console.log('Ride data sent successfully:', response.data);
     } catch (error) {
       if (error.response) {
-        // The request was made and the server responded with an error status code.
         console.error('Error sending ride data. Server response:', error.response.data);
       } else if (error.request) {
-        // The request was made but no response was received.
         console.error('Error sending ride data. No response received:', error.request);
       } else {
-        // Something else happened while setting up the request.
         console.error('Error sending ride data:', error.message);
       }
+      
     }
   };
 
