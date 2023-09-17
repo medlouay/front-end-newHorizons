@@ -39,14 +39,18 @@ const OfferRideStep1 = ({ onNext, prevStep, nextStep }) => {
           <div>
             <div id="offer-ride-title">Offer ride</div>
             <div id="step1">Step 1 of 3</div>
-            <div id="select-event">Select an event</div>
+
+
+{/* <span id="event">Event</span>
+ */}           
+  <div id="select-event">Select an event</div>
             <div id="searchbar">
-              <select
-                className="design-component-instance-node"
-                placeholder="Select your interests for better networking"
+              <select id="select-event"
+                className="searchbar"
+                placeholder="Select event"
               >
                 <option value="" disabled selected>
-                  Select your interests for better networking
+                  Select event
                 </option>
                 {events.map((el, idx) => (
                   <option key={idx} value={el.id_event}>
@@ -55,13 +59,6 @@ const OfferRideStep1 = ({ onNext, prevStep, nextStep }) => {
                 ))}
               </select>
 
-              <input
-                type="text"
-                id="searchInput"
-                placeholder="Search..."
-                value={searchValue}
-                onChange={handleSearchInputChange}
-              />
             </div>
 
             <div>

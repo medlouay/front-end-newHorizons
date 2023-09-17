@@ -9,7 +9,7 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
     departLocation: '', 
     arrivalLocation: '', 
     departureDate: '',
-    pickingTime: '', 
+    pickingTime: '',
   });
 
   const handleInputChange = (e) => {
@@ -66,35 +66,38 @@ const OfferRideStep2 = ({ onNext, prevStep, nextStep }) => {
           select on map
         </a>
         <span id='deprature-data-and-time'>Departure date and time</span>
-        <div className="datetime-picker">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="calendar-icon"
-          >
-            {/* SVG path data */}
-          </svg>
+        <div className="date">
+         
+
+
           <input
-            type="datetime-local"
-            id="datetime"
-            name="departureDate" 
-            value={inputs.departureDate} 
-            onChange={handleInputChange}
-            placeholder="Select Date and Time"
-          />
+  type="date"
+  id="date"
+  name="departureDate" 
+  value="2023-09-17" // Set a static date (YYYY-MM-DD format)
+  onChange={handleInputChange}
+  placeholder="Select Date"
+  min="1000-01-01" // Set a minimum date
+  max="9999-12-31" // Set a maximum date
+  pattern="\d{4}-\d{2}-\d{2}" // Pattern for YYYY-MM-DD format
+  required // Mark the field as required if needed
+  onKeyDown={(e) => e.preventDefault()} // Prevent manual editing
+/>
+
         </div>
-        <span id='pickup-time'>Pickup Time</span>
-        <div className="datetime-picker">
-          <input
-            type="time"
-            id="time"
-            name="pickingTime" 
-            value={inputs.pickingTime} 
-            onChange={handleInputChange}
-          />
-        </div>
+
+
+<div className="time">
+  <input
+    type="time"
+    id="time"
+    name="pickingTime" 
+    value={inputs.pickingTime} 
+    onChange={handleInputChange}
+    step="1" // Adjust the step value as needed
+  />
+</div>
+
         <div>
           <Link to="/offer-ride-step1">
             <button id='backbutton2' onClick={prevStep}>Back</button>

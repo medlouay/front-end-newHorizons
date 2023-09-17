@@ -52,48 +52,12 @@
   top: 177px;
 }
 
-#searchbar {
-  position: absolute;
-  left: 50px;
-  top: 208px;
-  display: flex;
-  width: 380px;
-  padding: 18px 20px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  font-size: 15px;
-  border: 1px solid #5D9B96;
-}
 
-#searchInput {
-  outline: none;
-  border: none;
-  width: 100%;
-  padding: 0 10px;
-  font-size: 15px;
-}
 
-#searchInput::placeholder {
-  color: #C3C6C6;
-}
 
-input[type="radio"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 18px;
-  height: 18px;
-  border: 2px solid #5D9B96;
-  border-radius: 50%;
-  outline: none;
-  cursor: pointer;
-  margin-right: 5px; /* Add spacing between the radio button and label text */
-}
 
-input[type="radio"]:checked {
-  background-color: #5D9B96;
-}
+
+
 
 label {
   display: inline-flex;
@@ -154,4 +118,30 @@ label {
 
 a {
   color: black;
+}
+
+#select-event{
+  position: absolute;
+  left: 50px;
+  top: 208px;
+  display: flex;
+  width: 380px;
+  padding: 18px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #5D9B96;
+}
+#event{
+  color: #2d3536;
+  font-family: Consolas;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 130%;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 165px;
+
 }

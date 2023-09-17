@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const OfferRideStep3 = ({ formData, prevStep }) => {
   const [formDataStep3, setFormDataStep3] = useState({
-    seatsAvailable: '1',
+    seatsAvailable: '',
     price: '',
     priceUnit: '1',
     commentRide: '',
@@ -25,14 +25,19 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
     console.log(formData)
     const dataToSend = {
       id_ride: 0,
-      arrival_location: formData.step2Data.arrivalLocation,
-      depart_location: formData.step2Data.departLocation,
+      arrivalLocation: formData.step2Data.arrivalLocation,
+      departLocation: formData.step2Data.departLocation,
       price: formDataStep3.price,
-      seats_available: formDataStep3.seatsAvailable,
-      arrival_time: '',
-      comment_ride: formDataStep3.commentRide,
-      departure_date: '',
-      picking_time: formData.step2Data.pickingTime,
+      commentRide: formDataStep3.commentRide,
+      seatsAvailable: formDataStep3.seatsAvailable,
+    
+      departureDate: formData.step2Data.departureDate,
+
+
+         pickingTime: formData.step2Data.pickingTime, 
+
+
+     
     };
 
     const modifiedData = {
@@ -41,27 +46,37 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
       departLocation: dataToSend.departLocation,
       price: dataToSend.price,
       seatsAvailable: dataToSend.seatsAvailable,
-      arrival_time: dataToSend.arrivalTime,
       commentRide: dataToSend.commentRide,
-      departure_date: dataToSend.departureDate,
+
+      departureDate: dataToSend.departureDate,
+
+
+
       pickingTime: dataToSend.pickingTime,
+
     };
 
+    
     try {
-    console.log(modifiedData)
-    const response = await axios.post('http://127.0.0.1:3309/api/rides/add', modifiedData);
-
-    console.log('Ride data sent successfully:', response.data);
+      console.log(modifiedData);
+      const response = await axios.post('http://127.0.0.1:3309/api/rides/add', modifiedData);  
+      console.log('Ride data sent successfully:', response.data);
     } catch (error) {
       if (error.response) {
+        // The request was made and the server responded with an error status code.
         console.error('Error sending ride data. Server response:', error.response.data);
       } else if (error.request) {
-        console.error('Error sending ride data. No response received:', error.request);
+        // The request was made but no response was received.
+        console.error('Error sending ride data. No response received.');
       } else {
+        // Something else happened while setting up the request.
         console.error('Error sending ride data:', error.message);
       }
       
+      // You can also log the entire error object for more details
+      console.error('Full error object:', error);
     }
+  
   };
 
   return (
@@ -88,9 +103,11 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
             <option value="4">4</option>
           </select>
         </div>
+
+
         <span id='price-for-passangers'> Price for passengers </span>
         <div id="container-price-for-passangers">
-          <div>
+          <div id='input-price-for-passanger '>
             <label htmlFor="inputField"></label>
             <input
               id="input-price-for-passanger"
@@ -101,19 +118,8 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
             />
           </div>
         </div>
-        <div>
-          <select
-            id="select-price-for-passenger"
-            name="priceUnit"
-            value={formDataStep3.priceUnit}
-            onChange={handleInputChange}
-          >
-            <option value="1"> EUR</option>
-            <option value="2"> 2</option>
-            <option value="3"> 3</option>
-            <option value="4">4</option>
-          </select>
-        </div>
+    
+        
         <span id='comment-for-passanger-seat'>Comment to passengers (Optional)</span>
         <div>
           <label htmlFor="inputField"></label>
