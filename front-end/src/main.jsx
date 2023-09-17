@@ -27,7 +27,8 @@ import {
   ReturnRideStep2,
   ReturnRideStep3,
   RideSubmitted,
-  ReturnRideSubmitted
+  ReturnRideSubmitted,
+  Rides
 } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -56,6 +57,7 @@ ReactDOM.createRoot(root).render(
         <Route path="/ride-submitted" element={< RideSubmitted/>} />
         <Route path="/ride-submitted" element={< RideSubmitted/>} />
         <Route path="/return-ride-submitted" element={< ReturnRideSubmitted/>} />    
+        <Route path="/rides" element={< Rides/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

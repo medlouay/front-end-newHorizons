@@ -1,0 +1,17 @@
+.ride-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px; /* Adjust the margin as needed */
+  font: 400 16px/130% "Now", sans-serif;
+}
+
+.ride-container {
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px; /* Adjust the margin as needed */
+  margin-right: 20px; /* Add margin to create space between containers */
+  padding: 10px;
+  background-color: #fffefe;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #f2e8e0;
+}

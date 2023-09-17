@@ -30,6 +30,7 @@ import ReturnRide from "./ReturnRide/ReturnRide";
 import ReturnRideStep2 from "./ReturnRide/ReturnRideStep2";
 import ReturnRideStep3 from "./ReturnRide/ReturnRideStep3";
 import ReturnRideSubmitted from "./ReturnRide/ReturnRideSubmitted";
+import Rides from "./Rides/Rides";
 
 export 
 {Header,
@@ -63,7 +64,8 @@ export
     ReturnRideStep2,
     ReturnRideStep3,
     RideSubmitted,
-    ReturnRideSubmitted
+    ReturnRideSubmitted,
+    Rides
 }
     
     

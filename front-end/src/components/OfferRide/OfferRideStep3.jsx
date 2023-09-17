@@ -53,7 +53,16 @@ const OfferRideStep3 = ({ formData, prevStep }) => {
 
     console.log('Ride data sent successfully:', response.data);
     } catch (error) {
-      console.error('Error sending ride data:', error);
+      if (error.response) {
+        // The request was made and the server responded with an error status code.
+        console.error('Error sending ride data. Server response:', error.response.data);
+      } else if (error.request) {
+        // The request was made but no response was received.
+        console.error('Error sending ride data. No response received:', error.request);
+      } else {
+        // Something else happened while setting up the request.
+        console.error('Error sending ride data:', error.message);
+      }
     }
   };
 
